@@ -76,6 +76,6 @@ before install:
     setupTask()
 
 task test, "Test nimbass":
-    exec "nim c tests/basstest.nim"
+    exec "nim c -d:nimDebugDlOpen tests/basstest.nim"
     withDir("nimbass"):
         exec "../tests/basstest"
