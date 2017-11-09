@@ -1,4 +1,5 @@
 nimbass
 nimcache
 *.exe
-basstest
+*.swp
+*test
