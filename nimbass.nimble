@@ -39,7 +39,7 @@ task extract, "Extract ZIPs":
         ext_cmd = "powershell -nologo -noprofile -command \"& { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::ExtractToDirectory('$#', '.'); }\""
 
     echo "Extracting " & dl_file
-    exec ext_cmd % dl_file
+    exec ext_cmd % (".."/dl_file)
 
 task dl_url, "Download URL":
     var dl_cmd = "curl $#$# -o $#"
@@ -56,7 +56,8 @@ task dl_comps, "Download components":
         if not fileExists(dl_file):            
             dl_urlTask()
 
-        extractTask()
+        withDir("nimbass"):
+            extractTask()
 
 task nimgen, "Run nimgen":
     exec cmd & "nimgen nimbass.cfg"
@@ -64,11 +65,9 @@ task nimgen, "Run nimgen":
 task setup, "Download and extract":
     if dirExists("nimbass"):
         rmDir("nimbass")
-
     mkDir("nimbass")
 
-    withDir("nimbass"):
-        dl_compsTask()
+    dl_compsTask()
 
     nimgenTask()
 
