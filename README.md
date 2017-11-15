@@ -1,6 +1,6 @@
 NimBASS is a [Nim](https://nim-lang.org/) wrapper for the [BASS](http://www.un4seen.com/) audio library.
 
-NimBASS is distributed as a [Nimble](https://github.com/nim-lang/nimble) package and depends on [nimgen](https://github.com/genotrance/nimgen) and [c2nim](https://github.com/nim-lang/c2nim/) to generate the wrappers. The BASS library and header files are downloaded using wget/curl/powershell and extracted using unzip/powershell.
+NimBASS is distributed as a [Nimble](https://github.com/nim-lang/nimble) package and depends on [nimgen](https://github.com/genotrance/nimgen) and [c2nim](https://github.com/nim-lang/c2nim/) to generate the wrappers. The BASS library and header files are downloaded using curl/powershell and extracted using unzip/powershell.
 
 __Installation__
 
