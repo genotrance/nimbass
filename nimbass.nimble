@@ -14,8 +14,11 @@ requires "nimgen >= 0.1.1"
 import distros
 
 var cmd = ""
+var ldpath = ""
 if detectOs(Windows):
     cmd = "cmd /c "
+if detectOs(Linux):
+    ldpath = "LD_LIBRARY_PATH=x64 "
 
 task setup, "Download and generate":
     exec cmd & "nimgen nimbass.cfg"
@@ -26,4 +29,4 @@ before install:
 task test, "Test nimbass":
     exec "nim c -d:nimDebugDlOpen tests/basstest.nim"
     withDir("nimbass"):
-        exec "../tests/basstest"
+        exec ldpath & "../tests/basstest"
