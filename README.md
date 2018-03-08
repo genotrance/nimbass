@@ -7,6 +7,8 @@ __Installation__
 NimBASS can be installed via [Nimble](https://github.com/nim-lang/nimble):
 
 ```
+> nimble install nimgen
+
 > git clone https://github.com/genotrance/nimbass
 > cd nimbass
 > nimble install
