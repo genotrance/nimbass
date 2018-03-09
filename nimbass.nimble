@@ -15,8 +15,10 @@ import distros
 
 var cmd = ""
 var ldpath = ""
+var ext = ""
 if detectOs(Windows):
     cmd = "cmd /c "
+    ext = ".exe"
 if detectOs(Linux):
     ldpath = "LD_LIBRARY_PATH=x64 "
 
@@ -29,4 +31,4 @@ before install:
 task test, "Test nimbass":
     exec "nim c -d:nimDebugDlOpen tests/basstest.nim"
     withDir("nimbass"):
-        exec ldpath & "../tests/basstest"
+        exec ldpath & "../tests/basstest" & ext
