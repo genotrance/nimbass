@@ -9,9 +9,7 @@ NimBASS can be installed via [Nimble](https://github.com/nim-lang/nimble):
 ```
 > nimble install nimgen
 
-> git clone https://github.com/genotrance/nimbass
-> cd nimbass
-> nimble install
+> nimble install nimbass
 ```
 
 This will download, wrap and install NimBASS in the standard Nimble package location, typically ~/.nimble. Once installed, it can be imported into any Nim program.
