@@ -1,6 +1,6 @@
 # Package
 
-version       = "0.1.2"
+version       = "0.1.3"
 author        = "genotrance"
 description   = "Bass wrapper for Nim"
 license       = "MIT"
@@ -9,26 +9,26 @@ skipDirs = @["tests"]
 
 # Dependencies
 
-requires "nimgen >= 0.1.4"
+requires "nimgen >= 0.4.0"
 
-import distros
+var
+  name = "nimbass"
+  cmd = when defined(Windows): "cmd /c " else: ""
+  ext = when defined(Windows): ".exe" else: ""
+  ldpath = when defined(Linux): "LD_LIBRARY_PATH=x64 " else: ""
 
-var cmd = ""
-var ldpath = ""
-var ext = ""
-if detectOs(Windows):
-    cmd = "cmd /c "
-    ext = ".exe"
-if detectOs(Linux):
-    ldpath = "LD_LIBRARY_PATH=x64 "
+mkDir(name)
 
-task setup, "Download and generate":
-    exec cmd & "nimgen nimbass.cfg"
+task setup, "Checkout and generate":
+  if gorgeEx(cmd & "nimgen").exitCode != 0:
+    withDir(".."):
+      exec "nimble install nimgen -y"
+  exec cmd & "nimgen " & name & ".cfg"
 
 before install:
-    setupTask()
+  setupTask()
 
 task test, "Test nimbass":
-    exec "nim c -d:nimDebugDlOpen tests/basstest.nim"
-    withDir("nimbass"):
-        exec ldpath & "../tests/basstest" & ext
+  exec "nim c -d:nimDebugDlOpen tests/basstest.nim"
+  withDir("nimbass"):
+    exec ldpath & "../tests/basstest" & ext
