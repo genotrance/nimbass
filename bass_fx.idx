@@ -1,0 +1,336 @@
+bassfxStd	bass_fx.html#bassfxStd	bass_fx: bassfxStd	
+bassfxGit	bass_fx.html#bassfxGit	bass_fx: bassfxGit	
+bassfxDL	bass_fx.html#bassfxDL	bass_fx: bassfxDL	
+bassfxStatic	bass_fx.html#bassfxStatic	bass_fx: bassfxStatic	
+bassfxSetVer	bass_fx.html#bassfxSetVer	bass_fx: bassfxSetVer	
+bassfxLPath	bass_fx.html#bassfxLPath	bass_fx: bassfxLPath	
+bassfxPath	bass_fx.html#bassfxPath	bass_fx: bassfxPath	
+Enum_bass_fxh1	bass_fx.html#Enum_bass_fxh1	bass_fx: Enum_bass_fxh1	
+`+`	bass_fx.html#+,Enum_bass_fxh1,int	bass_fx: `+`(x`gensym20390003: Enum_bass_fxh1; y`gensym20390004: int): Enum_bass_fxh1	
+`+`	bass_fx.html#+,int,Enum_bass_fxh1	bass_fx: `+`(x`gensym20390005: int; y`gensym20390006: Enum_bass_fxh1): Enum_bass_fxh1	
+`+`	bass_fx.html#+,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `+`(x`gensym20390007, y`gensym20390008: Enum_bass_fxh1): Enum_bass_fxh1	
+`-`	bass_fx.html#-,Enum_bass_fxh1,int	bass_fx: `-`(x`gensym20395015: Enum_bass_fxh1; y`gensym20395016: int): Enum_bass_fxh1	
+`-`	bass_fx.html#-,int,Enum_bass_fxh1	bass_fx: `-`(x`gensym20395017: int; y`gensym20395018: Enum_bass_fxh1): Enum_bass_fxh1	
+`-`	bass_fx.html#-,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `-`(x`gensym20395019, y`gensym20395020: Enum_bass_fxh1): Enum_bass_fxh1	
+`*`	bass_fx.html#*,Enum_bass_fxh1,int	bass_fx: `*`(x`gensym20400015: Enum_bass_fxh1; y`gensym20400016: int): Enum_bass_fxh1	
+`*`	bass_fx.html#*,int,Enum_bass_fxh1	bass_fx: `*`(x`gensym20400017: int; y`gensym20400018: Enum_bass_fxh1): Enum_bass_fxh1	
+`*`	bass_fx.html#*,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `*`(x`gensym20400019, y`gensym20400020: Enum_bass_fxh1): Enum_bass_fxh1	
+`&lt;`	bass_fx.html#<,Enum_bass_fxh1,int	bass_fx: `&lt;`(x`gensym20405015: Enum_bass_fxh1; y`gensym20405016: int): bool	
+`&lt;`	bass_fx.html#<,int,Enum_bass_fxh1	bass_fx: `&lt;`(x`gensym20405017: int; y`gensym20405018: Enum_bass_fxh1): bool	
+`&lt;`	bass_fx.html#<,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `&lt;`(x`gensym20405019, y`gensym20405020: Enum_bass_fxh1): bool	
+`&lt;=`	bass_fx.html#<=,Enum_bass_fxh1,int	bass_fx: `&lt;=`(x`gensym20410015: Enum_bass_fxh1; y`gensym20410016: int): bool	
+`&lt;=`	bass_fx.html#<=,int,Enum_bass_fxh1	bass_fx: `&lt;=`(x`gensym20410017: int; y`gensym20410018: Enum_bass_fxh1): bool	
+`&lt;=`	bass_fx.html#<=,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `&lt;=`(x`gensym20410019, y`gensym20410020: Enum_bass_fxh1): bool	
+`==`	bass_fx.html#==,Enum_bass_fxh1,int	bass_fx: `==`(x`gensym20415015: Enum_bass_fxh1; y`gensym20415016: int): bool	
+`==`	bass_fx.html#==,int,Enum_bass_fxh1	bass_fx: `==`(x`gensym20415017: int; y`gensym20415018: Enum_bass_fxh1): bool	
+`==`	bass_fx.html#==,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `==`(x`gensym20415019, y`gensym20415020: Enum_bass_fxh1): bool	
+`div`	bass_fx.html#div,Enum_bass_fxh1,int	bass_fx: `div`(x`gensym20420015: Enum_bass_fxh1; y`gensym20420016: int): Enum_bass_fxh1	
+`div`	bass_fx.html#div,int,Enum_bass_fxh1	bass_fx: `div`(x`gensym20420017: int; y`gensym20420018: Enum_bass_fxh1): Enum_bass_fxh1	
+`div`	bass_fx.html#div,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `div`(x`gensym20420019, y`gensym20420020: Enum_bass_fxh1): Enum_bass_fxh1	
+`mod`	bass_fx.html#mod,Enum_bass_fxh1,int	bass_fx: `mod`(x`gensym20425015: Enum_bass_fxh1; y`gensym20425016: int): Enum_bass_fxh1	
+`mod`	bass_fx.html#mod,int,Enum_bass_fxh1	bass_fx: `mod`(x`gensym20425017: int; y`gensym20425018: Enum_bass_fxh1): Enum_bass_fxh1	
+`mod`	bass_fx.html#mod,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `mod`(x`gensym20425019, y`gensym20425020: Enum_bass_fxh1): Enum_bass_fxh1	
+`shl`	bass_fx.html#shl,Enum_bass_fxh1,int	bass_fx: `shl`(x`gensym20385001: Enum_bass_fxh1; y`gensym20385002: int): Enum_bass_fxh1	
+`shl`	bass_fx.html#shl,int,Enum_bass_fxh1	bass_fx: `shl`(x`gensym20385003: int; y`gensym20385004: Enum_bass_fxh1): Enum_bass_fxh1	
+`shl`	bass_fx.html#shl,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `shl`(x`gensym20385005, y`gensym20385006: Enum_bass_fxh1): Enum_bass_fxh1	
+`shr`	bass_fx.html#shr,Enum_bass_fxh1,int	bass_fx: `shr`(x`gensym20385007: Enum_bass_fxh1; y`gensym20385008: int): Enum_bass_fxh1	
+`shr`	bass_fx.html#shr,int,Enum_bass_fxh1	bass_fx: `shr`(x`gensym20385009: int; y`gensym20385010: Enum_bass_fxh1): Enum_bass_fxh1	
+`shr`	bass_fx.html#shr,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `shr`(x`gensym20385011, y`gensym20385012: Enum_bass_fxh1): Enum_bass_fxh1	
+`or`	bass_fx.html#or,Enum_bass_fxh1,int	bass_fx: `or`(x`gensym20385013: Enum_bass_fxh1; y`gensym20385014: int): Enum_bass_fxh1	
+`or`	bass_fx.html#or,int,Enum_bass_fxh1	bass_fx: `or`(x`gensym20385015: int; y`gensym20385016: Enum_bass_fxh1): Enum_bass_fxh1	
+`or`	bass_fx.html#or,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `or`(x`gensym20385017, y`gensym20385018: Enum_bass_fxh1): Enum_bass_fxh1	
+`and`	bass_fx.html#and,Enum_bass_fxh1,int	bass_fx: `and`(x`gensym20385019: Enum_bass_fxh1; y`gensym20385020: int): Enum_bass_fxh1	
+`and`	bass_fx.html#and,int,Enum_bass_fxh1	bass_fx: `and`(x`gensym20385021: int; y`gensym20385022: Enum_bass_fxh1): Enum_bass_fxh1	
+`and`	bass_fx.html#and,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `and`(x`gensym20385023, y`gensym20385024: Enum_bass_fxh1): Enum_bass_fxh1	
+`xor`	bass_fx.html#xor,Enum_bass_fxh1,int	bass_fx: `xor`(x`gensym20385025: Enum_bass_fxh1; y`gensym20385026: int): Enum_bass_fxh1	
+`xor`	bass_fx.html#xor,int,Enum_bass_fxh1	bass_fx: `xor`(x`gensym20385027: int; y`gensym20385028: Enum_bass_fxh1): Enum_bass_fxh1	
+`xor`	bass_fx.html#xor,Enum_bass_fxh1,Enum_bass_fxh1	bass_fx: `xor`(x`gensym20385029, y`gensym20385030: Enum_bass_fxh1): Enum_bass_fxh1	
+`/`	bass_fx.html#/,Enum_bass_fxh1,int	bass_fx: `/`(x`gensym20385033: Enum_bass_fxh1; y`gensym20385034: int): Enum_bass_fxh1	
+`/`	bass_fx.html#/,int,Enum_bass_fxh1	bass_fx: `/`(x`gensym20385035: int; y`gensym20385036: Enum_bass_fxh1): Enum_bass_fxh1	
+`$`	bass_fx.html#$,Enum_bass_fxh1	bass_fx: `$`(x`gensym20385037: Enum_bass_fxh1): string	
+Enum_bass_fxh2	bass_fx.html#Enum_bass_fxh2	bass_fx: Enum_bass_fxh2	
+`+`	bass_fx.html#+,Enum_bass_fxh2,int	bass_fx: `+`(x`gensym20435003: Enum_bass_fxh2; y`gensym20435004: int): Enum_bass_fxh2	
+`+`	bass_fx.html#+,int,Enum_bass_fxh2	bass_fx: `+`(x`gensym20435005: int; y`gensym20435006: Enum_bass_fxh2): Enum_bass_fxh2	
+`+`	bass_fx.html#+,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `+`(x`gensym20435007, y`gensym20435008: Enum_bass_fxh2): Enum_bass_fxh2	
+`-`	bass_fx.html#-,Enum_bass_fxh2,int	bass_fx: `-`(x`gensym20440015: Enum_bass_fxh2; y`gensym20440016: int): Enum_bass_fxh2	
+`-`	bass_fx.html#-,int,Enum_bass_fxh2	bass_fx: `-`(x`gensym20440017: int; y`gensym20440018: Enum_bass_fxh2): Enum_bass_fxh2	
+`-`	bass_fx.html#-,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `-`(x`gensym20440019, y`gensym20440020: Enum_bass_fxh2): Enum_bass_fxh2	
+`*`	bass_fx.html#*,Enum_bass_fxh2,int	bass_fx: `*`(x`gensym20445015: Enum_bass_fxh2; y`gensym20445016: int): Enum_bass_fxh2	
+`*`	bass_fx.html#*,int,Enum_bass_fxh2	bass_fx: `*`(x`gensym20445017: int; y`gensym20445018: Enum_bass_fxh2): Enum_bass_fxh2	
+`*`	bass_fx.html#*,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `*`(x`gensym20445019, y`gensym20445020: Enum_bass_fxh2): Enum_bass_fxh2	
+`&lt;`	bass_fx.html#<,Enum_bass_fxh2,int	bass_fx: `&lt;`(x`gensym20450015: Enum_bass_fxh2; y`gensym20450016: int): bool	
+`&lt;`	bass_fx.html#<,int,Enum_bass_fxh2	bass_fx: `&lt;`(x`gensym20450017: int; y`gensym20450018: Enum_bass_fxh2): bool	
+`&lt;`	bass_fx.html#<,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `&lt;`(x`gensym20450019, y`gensym20450020: Enum_bass_fxh2): bool	
+`&lt;=`	bass_fx.html#<=,Enum_bass_fxh2,int	bass_fx: `&lt;=`(x`gensym20455015: Enum_bass_fxh2; y`gensym20455016: int): bool	
+`&lt;=`	bass_fx.html#<=,int,Enum_bass_fxh2	bass_fx: `&lt;=`(x`gensym20455017: int; y`gensym20455018: Enum_bass_fxh2): bool	
+`&lt;=`	bass_fx.html#<=,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `&lt;=`(x`gensym20455019, y`gensym20455020: Enum_bass_fxh2): bool	
+`==`	bass_fx.html#==,Enum_bass_fxh2,int	bass_fx: `==`(x`gensym20460015: Enum_bass_fxh2; y`gensym20460016: int): bool	
+`==`	bass_fx.html#==,int,Enum_bass_fxh2	bass_fx: `==`(x`gensym20460017: int; y`gensym20460018: Enum_bass_fxh2): bool	
+`==`	bass_fx.html#==,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `==`(x`gensym20460019, y`gensym20460020: Enum_bass_fxh2): bool	
+`div`	bass_fx.html#div,Enum_bass_fxh2,int	bass_fx: `div`(x`gensym20465015: Enum_bass_fxh2; y`gensym20465016: int): Enum_bass_fxh2	
+`div`	bass_fx.html#div,int,Enum_bass_fxh2	bass_fx: `div`(x`gensym20465017: int; y`gensym20465018: Enum_bass_fxh2): Enum_bass_fxh2	
+`div`	bass_fx.html#div,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `div`(x`gensym20465019, y`gensym20465020: Enum_bass_fxh2): Enum_bass_fxh2	
+`mod`	bass_fx.html#mod,Enum_bass_fxh2,int	bass_fx: `mod`(x`gensym20470015: Enum_bass_fxh2; y`gensym20470016: int): Enum_bass_fxh2	
+`mod`	bass_fx.html#mod,int,Enum_bass_fxh2	bass_fx: `mod`(x`gensym20470017: int; y`gensym20470018: Enum_bass_fxh2): Enum_bass_fxh2	
+`mod`	bass_fx.html#mod,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `mod`(x`gensym20470019, y`gensym20470020: Enum_bass_fxh2): Enum_bass_fxh2	
+`shl`	bass_fx.html#shl,Enum_bass_fxh2,int	bass_fx: `shl`(x`gensym20430172: Enum_bass_fxh2; y`gensym20430173: int): Enum_bass_fxh2	
+`shl`	bass_fx.html#shl,int,Enum_bass_fxh2	bass_fx: `shl`(x`gensym20430174: int; y`gensym20430175: Enum_bass_fxh2): Enum_bass_fxh2	
+`shl`	bass_fx.html#shl,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `shl`(x`gensym20430176, y`gensym20430177: Enum_bass_fxh2): Enum_bass_fxh2	
+`shr`	bass_fx.html#shr,Enum_bass_fxh2,int	bass_fx: `shr`(x`gensym20430178: Enum_bass_fxh2; y`gensym20430179: int): Enum_bass_fxh2	
+`shr`	bass_fx.html#shr,int,Enum_bass_fxh2	bass_fx: `shr`(x`gensym20430180: int; y`gensym20430181: Enum_bass_fxh2): Enum_bass_fxh2	
+`shr`	bass_fx.html#shr,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `shr`(x`gensym20430182, y`gensym20430183: Enum_bass_fxh2): Enum_bass_fxh2	
+`or`	bass_fx.html#or,Enum_bass_fxh2,int	bass_fx: `or`(x`gensym20430184: Enum_bass_fxh2; y`gensym20430185: int): Enum_bass_fxh2	
+`or`	bass_fx.html#or,int,Enum_bass_fxh2	bass_fx: `or`(x`gensym20430186: int; y`gensym20430187: Enum_bass_fxh2): Enum_bass_fxh2	
+`or`	bass_fx.html#or,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `or`(x`gensym20430188, y`gensym20430189: Enum_bass_fxh2): Enum_bass_fxh2	
+`and`	bass_fx.html#and,Enum_bass_fxh2,int	bass_fx: `and`(x`gensym20430190: Enum_bass_fxh2; y`gensym20430191: int): Enum_bass_fxh2	
+`and`	bass_fx.html#and,int,Enum_bass_fxh2	bass_fx: `and`(x`gensym20430192: int; y`gensym20430193: Enum_bass_fxh2): Enum_bass_fxh2	
+`and`	bass_fx.html#and,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `and`(x`gensym20430194, y`gensym20430195: Enum_bass_fxh2): Enum_bass_fxh2	
+`xor`	bass_fx.html#xor,Enum_bass_fxh2,int	bass_fx: `xor`(x`gensym20430196: Enum_bass_fxh2; y`gensym20430197: int): Enum_bass_fxh2	
+`xor`	bass_fx.html#xor,int,Enum_bass_fxh2	bass_fx: `xor`(x`gensym20430198: int; y`gensym20430199: Enum_bass_fxh2): Enum_bass_fxh2	
+`xor`	bass_fx.html#xor,Enum_bass_fxh2,Enum_bass_fxh2	bass_fx: `xor`(x`gensym20430200, y`gensym20430201: Enum_bass_fxh2): Enum_bass_fxh2	
+`/`	bass_fx.html#/,Enum_bass_fxh2,int	bass_fx: `/`(x`gensym20430204: Enum_bass_fxh2; y`gensym20430205: int): Enum_bass_fxh2	
+`/`	bass_fx.html#/,int,Enum_bass_fxh2	bass_fx: `/`(x`gensym20430206: int; y`gensym20430207: Enum_bass_fxh2): Enum_bass_fxh2	
+`$`	bass_fx.html#$,Enum_bass_fxh2	bass_fx: `$`(x`gensym20430208: Enum_bass_fxh2): string	
+Enum_bass_fxh3	bass_fx.html#Enum_bass_fxh3	bass_fx: Enum_bass_fxh3	
+`+`	bass_fx.html#+,Enum_bass_fxh3,int	bass_fx: `+`(x`gensym20480003: Enum_bass_fxh3; y`gensym20480004: int): Enum_bass_fxh3	
+`+`	bass_fx.html#+,int,Enum_bass_fxh3	bass_fx: `+`(x`gensym20480005: int; y`gensym20480006: Enum_bass_fxh3): Enum_bass_fxh3	
+`+`	bass_fx.html#+,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `+`(x`gensym20480007, y`gensym20480008: Enum_bass_fxh3): Enum_bass_fxh3	
+`-`	bass_fx.html#-,Enum_bass_fxh3,int	bass_fx: `-`(x`gensym20485015: Enum_bass_fxh3; y`gensym20485016: int): Enum_bass_fxh3	
+`-`	bass_fx.html#-,int,Enum_bass_fxh3	bass_fx: `-`(x`gensym20485017: int; y`gensym20485018: Enum_bass_fxh3): Enum_bass_fxh3	
+`-`	bass_fx.html#-,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `-`(x`gensym20485019, y`gensym20485020: Enum_bass_fxh3): Enum_bass_fxh3	
+`*`	bass_fx.html#*,Enum_bass_fxh3,int	bass_fx: `*`(x`gensym20490015: Enum_bass_fxh3; y`gensym20490016: int): Enum_bass_fxh3	
+`*`	bass_fx.html#*,int,Enum_bass_fxh3	bass_fx: `*`(x`gensym20490017: int; y`gensym20490018: Enum_bass_fxh3): Enum_bass_fxh3	
+`*`	bass_fx.html#*,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `*`(x`gensym20490019, y`gensym20490020: Enum_bass_fxh3): Enum_bass_fxh3	
+`&lt;`	bass_fx.html#<,Enum_bass_fxh3,int	bass_fx: `&lt;`(x`gensym20495015: Enum_bass_fxh3; y`gensym20495016: int): bool	
+`&lt;`	bass_fx.html#<,int,Enum_bass_fxh3	bass_fx: `&lt;`(x`gensym20495017: int; y`gensym20495018: Enum_bass_fxh3): bool	
+`&lt;`	bass_fx.html#<,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `&lt;`(x`gensym20495019, y`gensym20495020: Enum_bass_fxh3): bool	
+`&lt;=`	bass_fx.html#<=,Enum_bass_fxh3,int	bass_fx: `&lt;=`(x`gensym20500015: Enum_bass_fxh3; y`gensym20500016: int): bool	
+`&lt;=`	bass_fx.html#<=,int,Enum_bass_fxh3	bass_fx: `&lt;=`(x`gensym20500017: int; y`gensym20500018: Enum_bass_fxh3): bool	
+`&lt;=`	bass_fx.html#<=,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `&lt;=`(x`gensym20500019, y`gensym20500020: Enum_bass_fxh3): bool	
+`==`	bass_fx.html#==,Enum_bass_fxh3,int	bass_fx: `==`(x`gensym20505015: Enum_bass_fxh3; y`gensym20505016: int): bool	
+`==`	bass_fx.html#==,int,Enum_bass_fxh3	bass_fx: `==`(x`gensym20505017: int; y`gensym20505018: Enum_bass_fxh3): bool	
+`==`	bass_fx.html#==,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `==`(x`gensym20505019, y`gensym20505020: Enum_bass_fxh3): bool	
+`div`	bass_fx.html#div,Enum_bass_fxh3,int	bass_fx: `div`(x`gensym20510015: Enum_bass_fxh3; y`gensym20510016: int): Enum_bass_fxh3	
+`div`	bass_fx.html#div,int,Enum_bass_fxh3	bass_fx: `div`(x`gensym20510017: int; y`gensym20510018: Enum_bass_fxh3): Enum_bass_fxh3	
+`div`	bass_fx.html#div,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `div`(x`gensym20510019, y`gensym20510020: Enum_bass_fxh3): Enum_bass_fxh3	
+`mod`	bass_fx.html#mod,Enum_bass_fxh3,int	bass_fx: `mod`(x`gensym20515015: Enum_bass_fxh3; y`gensym20515016: int): Enum_bass_fxh3	
+`mod`	bass_fx.html#mod,int,Enum_bass_fxh3	bass_fx: `mod`(x`gensym20515017: int; y`gensym20515018: Enum_bass_fxh3): Enum_bass_fxh3	
+`mod`	bass_fx.html#mod,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `mod`(x`gensym20515019, y`gensym20515020: Enum_bass_fxh3): Enum_bass_fxh3	
+`shl`	bass_fx.html#shl,Enum_bass_fxh3,int	bass_fx: `shl`(x`gensym20475172: Enum_bass_fxh3; y`gensym20475173: int): Enum_bass_fxh3	
+`shl`	bass_fx.html#shl,int,Enum_bass_fxh3	bass_fx: `shl`(x`gensym20475174: int; y`gensym20475175: Enum_bass_fxh3): Enum_bass_fxh3	
+`shl`	bass_fx.html#shl,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `shl`(x`gensym20475176, y`gensym20475177: Enum_bass_fxh3): Enum_bass_fxh3	
+`shr`	bass_fx.html#shr,Enum_bass_fxh3,int	bass_fx: `shr`(x`gensym20475178: Enum_bass_fxh3; y`gensym20475179: int): Enum_bass_fxh3	
+`shr`	bass_fx.html#shr,int,Enum_bass_fxh3	bass_fx: `shr`(x`gensym20475180: int; y`gensym20475181: Enum_bass_fxh3): Enum_bass_fxh3	
+`shr`	bass_fx.html#shr,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `shr`(x`gensym20475182, y`gensym20475183: Enum_bass_fxh3): Enum_bass_fxh3	
+`or`	bass_fx.html#or,Enum_bass_fxh3,int	bass_fx: `or`(x`gensym20475184: Enum_bass_fxh3; y`gensym20475185: int): Enum_bass_fxh3	
+`or`	bass_fx.html#or,int,Enum_bass_fxh3	bass_fx: `or`(x`gensym20475186: int; y`gensym20475187: Enum_bass_fxh3): Enum_bass_fxh3	
+`or`	bass_fx.html#or,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `or`(x`gensym20475188, y`gensym20475189: Enum_bass_fxh3): Enum_bass_fxh3	
+`and`	bass_fx.html#and,Enum_bass_fxh3,int	bass_fx: `and`(x`gensym20475190: Enum_bass_fxh3; y`gensym20475191: int): Enum_bass_fxh3	
+`and`	bass_fx.html#and,int,Enum_bass_fxh3	bass_fx: `and`(x`gensym20475192: int; y`gensym20475193: Enum_bass_fxh3): Enum_bass_fxh3	
+`and`	bass_fx.html#and,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `and`(x`gensym20475194, y`gensym20475195: Enum_bass_fxh3): Enum_bass_fxh3	
+`xor`	bass_fx.html#xor,Enum_bass_fxh3,int	bass_fx: `xor`(x`gensym20475196: Enum_bass_fxh3; y`gensym20475197: int): Enum_bass_fxh3	
+`xor`	bass_fx.html#xor,int,Enum_bass_fxh3	bass_fx: `xor`(x`gensym20475198: int; y`gensym20475199: Enum_bass_fxh3): Enum_bass_fxh3	
+`xor`	bass_fx.html#xor,Enum_bass_fxh3,Enum_bass_fxh3	bass_fx: `xor`(x`gensym20475200, y`gensym20475201: Enum_bass_fxh3): Enum_bass_fxh3	
+`/`	bass_fx.html#/,Enum_bass_fxh3,int	bass_fx: `/`(x`gensym20475204: Enum_bass_fxh3; y`gensym20475205: int): Enum_bass_fxh3	
+`/`	bass_fx.html#/,int,Enum_bass_fxh3	bass_fx: `/`(x`gensym20475206: int; y`gensym20475207: Enum_bass_fxh3): Enum_bass_fxh3	
+`$`	bass_fx.html#$,Enum_bass_fxh3	bass_fx: `$`(x`gensym20475208: Enum_bass_fxh3): string	
+Enum_bass_fxh4	bass_fx.html#Enum_bass_fxh4	bass_fx: Enum_bass_fxh4	
+`+`	bass_fx.html#+,Enum_bass_fxh4,int	bass_fx: `+`(x`gensym20525003: Enum_bass_fxh4; y`gensym20525004: int): Enum_bass_fxh4	
+`+`	bass_fx.html#+,int,Enum_bass_fxh4	bass_fx: `+`(x`gensym20525005: int; y`gensym20525006: Enum_bass_fxh4): Enum_bass_fxh4	
+`+`	bass_fx.html#+,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `+`(x`gensym20525007, y`gensym20525008: Enum_bass_fxh4): Enum_bass_fxh4	
+`-`	bass_fx.html#-,Enum_bass_fxh4,int	bass_fx: `-`(x`gensym20530015: Enum_bass_fxh4; y`gensym20530016: int): Enum_bass_fxh4	
+`-`	bass_fx.html#-,int,Enum_bass_fxh4	bass_fx: `-`(x`gensym20530017: int; y`gensym20530018: Enum_bass_fxh4): Enum_bass_fxh4	
+`-`	bass_fx.html#-,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `-`(x`gensym20530019, y`gensym20530020: Enum_bass_fxh4): Enum_bass_fxh4	
+`*`	bass_fx.html#*,Enum_bass_fxh4,int	bass_fx: `*`(x`gensym20535015: Enum_bass_fxh4; y`gensym20535016: int): Enum_bass_fxh4	
+`*`	bass_fx.html#*,int,Enum_bass_fxh4	bass_fx: `*`(x`gensym20535017: int; y`gensym20535018: Enum_bass_fxh4): Enum_bass_fxh4	
+`*`	bass_fx.html#*,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `*`(x`gensym20535019, y`gensym20535020: Enum_bass_fxh4): Enum_bass_fxh4	
+`&lt;`	bass_fx.html#<,Enum_bass_fxh4,int	bass_fx: `&lt;`(x`gensym20540015: Enum_bass_fxh4; y`gensym20540016: int): bool	
+`&lt;`	bass_fx.html#<,int,Enum_bass_fxh4	bass_fx: `&lt;`(x`gensym20540017: int; y`gensym20540018: Enum_bass_fxh4): bool	
+`&lt;`	bass_fx.html#<,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `&lt;`(x`gensym20540019, y`gensym20540020: Enum_bass_fxh4): bool	
+`&lt;=`	bass_fx.html#<=,Enum_bass_fxh4,int	bass_fx: `&lt;=`(x`gensym20545015: Enum_bass_fxh4; y`gensym20545016: int): bool	
+`&lt;=`	bass_fx.html#<=,int,Enum_bass_fxh4	bass_fx: `&lt;=`(x`gensym20545017: int; y`gensym20545018: Enum_bass_fxh4): bool	
+`&lt;=`	bass_fx.html#<=,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `&lt;=`(x`gensym20545019, y`gensym20545020: Enum_bass_fxh4): bool	
+`==`	bass_fx.html#==,Enum_bass_fxh4,int	bass_fx: `==`(x`gensym20550015: Enum_bass_fxh4; y`gensym20550016: int): bool	
+`==`	bass_fx.html#==,int,Enum_bass_fxh4	bass_fx: `==`(x`gensym20550017: int; y`gensym20550018: Enum_bass_fxh4): bool	
+`==`	bass_fx.html#==,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `==`(x`gensym20550019, y`gensym20550020: Enum_bass_fxh4): bool	
+`div`	bass_fx.html#div,Enum_bass_fxh4,int	bass_fx: `div`(x`gensym20555015: Enum_bass_fxh4; y`gensym20555016: int): Enum_bass_fxh4	
+`div`	bass_fx.html#div,int,Enum_bass_fxh4	bass_fx: `div`(x`gensym20555017: int; y`gensym20555018: Enum_bass_fxh4): Enum_bass_fxh4	
+`div`	bass_fx.html#div,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `div`(x`gensym20555019, y`gensym20555020: Enum_bass_fxh4): Enum_bass_fxh4	
+`mod`	bass_fx.html#mod,Enum_bass_fxh4,int	bass_fx: `mod`(x`gensym20560015: Enum_bass_fxh4; y`gensym20560016: int): Enum_bass_fxh4	
+`mod`	bass_fx.html#mod,int,Enum_bass_fxh4	bass_fx: `mod`(x`gensym20560017: int; y`gensym20560018: Enum_bass_fxh4): Enum_bass_fxh4	
+`mod`	bass_fx.html#mod,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `mod`(x`gensym20560019, y`gensym20560020: Enum_bass_fxh4): Enum_bass_fxh4	
+`shl`	bass_fx.html#shl,Enum_bass_fxh4,int	bass_fx: `shl`(x`gensym20520172: Enum_bass_fxh4; y`gensym20520173: int): Enum_bass_fxh4	
+`shl`	bass_fx.html#shl,int,Enum_bass_fxh4	bass_fx: `shl`(x`gensym20520174: int; y`gensym20520175: Enum_bass_fxh4): Enum_bass_fxh4	
+`shl`	bass_fx.html#shl,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `shl`(x`gensym20520176, y`gensym20520177: Enum_bass_fxh4): Enum_bass_fxh4	
+`shr`	bass_fx.html#shr,Enum_bass_fxh4,int	bass_fx: `shr`(x`gensym20520178: Enum_bass_fxh4; y`gensym20520179: int): Enum_bass_fxh4	
+`shr`	bass_fx.html#shr,int,Enum_bass_fxh4	bass_fx: `shr`(x`gensym20520180: int; y`gensym20520181: Enum_bass_fxh4): Enum_bass_fxh4	
+`shr`	bass_fx.html#shr,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `shr`(x`gensym20520182, y`gensym20520183: Enum_bass_fxh4): Enum_bass_fxh4	
+`or`	bass_fx.html#or,Enum_bass_fxh4,int	bass_fx: `or`(x`gensym20520184: Enum_bass_fxh4; y`gensym20520185: int): Enum_bass_fxh4	
+`or`	bass_fx.html#or,int,Enum_bass_fxh4	bass_fx: `or`(x`gensym20520186: int; y`gensym20520187: Enum_bass_fxh4): Enum_bass_fxh4	
+`or`	bass_fx.html#or,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `or`(x`gensym20520188, y`gensym20520189: Enum_bass_fxh4): Enum_bass_fxh4	
+`and`	bass_fx.html#and,Enum_bass_fxh4,int	bass_fx: `and`(x`gensym20520190: Enum_bass_fxh4; y`gensym20520191: int): Enum_bass_fxh4	
+`and`	bass_fx.html#and,int,Enum_bass_fxh4	bass_fx: `and`(x`gensym20520192: int; y`gensym20520193: Enum_bass_fxh4): Enum_bass_fxh4	
+`and`	bass_fx.html#and,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `and`(x`gensym20520194, y`gensym20520195: Enum_bass_fxh4): Enum_bass_fxh4	
+`xor`	bass_fx.html#xor,Enum_bass_fxh4,int	bass_fx: `xor`(x`gensym20520196: Enum_bass_fxh4; y`gensym20520197: int): Enum_bass_fxh4	
+`xor`	bass_fx.html#xor,int,Enum_bass_fxh4	bass_fx: `xor`(x`gensym20520198: int; y`gensym20520199: Enum_bass_fxh4): Enum_bass_fxh4	
+`xor`	bass_fx.html#xor,Enum_bass_fxh4,Enum_bass_fxh4	bass_fx: `xor`(x`gensym20520200, y`gensym20520201: Enum_bass_fxh4): Enum_bass_fxh4	
+`/`	bass_fx.html#/,Enum_bass_fxh4,int	bass_fx: `/`(x`gensym20520204: Enum_bass_fxh4; y`gensym20520205: int): Enum_bass_fxh4	
+`/`	bass_fx.html#/,int,Enum_bass_fxh4	bass_fx: `/`(x`gensym20520206: int; y`gensym20520207: Enum_bass_fxh4): Enum_bass_fxh4	
+`$`	bass_fx.html#$,Enum_bass_fxh4	bass_fx: `$`(x`gensym20520208: Enum_bass_fxh4): string	
+Enum_bass_fxh5	bass_fx.html#Enum_bass_fxh5	bass_fx: Enum_bass_fxh5	
+`+`	bass_fx.html#+,Enum_bass_fxh5,int	bass_fx: `+`(x`gensym20570003: Enum_bass_fxh5; y`gensym20570004: int): Enum_bass_fxh5	
+`+`	bass_fx.html#+,int,Enum_bass_fxh5	bass_fx: `+`(x`gensym20570005: int; y`gensym20570006: Enum_bass_fxh5): Enum_bass_fxh5	
+`+`	bass_fx.html#+,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `+`(x`gensym20570007, y`gensym20570008: Enum_bass_fxh5): Enum_bass_fxh5	
+`-`	bass_fx.html#-,Enum_bass_fxh5,int	bass_fx: `-`(x`gensym20575015: Enum_bass_fxh5; y`gensym20575016: int): Enum_bass_fxh5	
+`-`	bass_fx.html#-,int,Enum_bass_fxh5	bass_fx: `-`(x`gensym20575017: int; y`gensym20575018: Enum_bass_fxh5): Enum_bass_fxh5	
+`-`	bass_fx.html#-,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `-`(x`gensym20575019, y`gensym20575020: Enum_bass_fxh5): Enum_bass_fxh5	
+`*`	bass_fx.html#*,Enum_bass_fxh5,int	bass_fx: `*`(x`gensym20580015: Enum_bass_fxh5; y`gensym20580016: int): Enum_bass_fxh5	
+`*`	bass_fx.html#*,int,Enum_bass_fxh5	bass_fx: `*`(x`gensym20580017: int; y`gensym20580018: Enum_bass_fxh5): Enum_bass_fxh5	
+`*`	bass_fx.html#*,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `*`(x`gensym20580019, y`gensym20580020: Enum_bass_fxh5): Enum_bass_fxh5	
+`&lt;`	bass_fx.html#<,Enum_bass_fxh5,int	bass_fx: `&lt;`(x`gensym20585015: Enum_bass_fxh5; y`gensym20585016: int): bool	
+`&lt;`	bass_fx.html#<,int,Enum_bass_fxh5	bass_fx: `&lt;`(x`gensym20585017: int; y`gensym20585018: Enum_bass_fxh5): bool	
+`&lt;`	bass_fx.html#<,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `&lt;`(x`gensym20585019, y`gensym20585020: Enum_bass_fxh5): bool	
+`&lt;=`	bass_fx.html#<=,Enum_bass_fxh5,int	bass_fx: `&lt;=`(x`gensym20590015: Enum_bass_fxh5; y`gensym20590016: int): bool	
+`&lt;=`	bass_fx.html#<=,int,Enum_bass_fxh5	bass_fx: `&lt;=`(x`gensym20590017: int; y`gensym20590018: Enum_bass_fxh5): bool	
+`&lt;=`	bass_fx.html#<=,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `&lt;=`(x`gensym20590019, y`gensym20590020: Enum_bass_fxh5): bool	
+`==`	bass_fx.html#==,Enum_bass_fxh5,int	bass_fx: `==`(x`gensym20595015: Enum_bass_fxh5; y`gensym20595016: int): bool	
+`==`	bass_fx.html#==,int,Enum_bass_fxh5	bass_fx: `==`(x`gensym20595017: int; y`gensym20595018: Enum_bass_fxh5): bool	
+`==`	bass_fx.html#==,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `==`(x`gensym20595019, y`gensym20595020: Enum_bass_fxh5): bool	
+`div`	bass_fx.html#div,Enum_bass_fxh5,int	bass_fx: `div`(x`gensym20600015: Enum_bass_fxh5; y`gensym20600016: int): Enum_bass_fxh5	
+`div`	bass_fx.html#div,int,Enum_bass_fxh5	bass_fx: `div`(x`gensym20600017: int; y`gensym20600018: Enum_bass_fxh5): Enum_bass_fxh5	
+`div`	bass_fx.html#div,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `div`(x`gensym20600019, y`gensym20600020: Enum_bass_fxh5): Enum_bass_fxh5	
+`mod`	bass_fx.html#mod,Enum_bass_fxh5,int	bass_fx: `mod`(x`gensym20605015: Enum_bass_fxh5; y`gensym20605016: int): Enum_bass_fxh5	
+`mod`	bass_fx.html#mod,int,Enum_bass_fxh5	bass_fx: `mod`(x`gensym20605017: int; y`gensym20605018: Enum_bass_fxh5): Enum_bass_fxh5	
+`mod`	bass_fx.html#mod,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `mod`(x`gensym20605019, y`gensym20605020: Enum_bass_fxh5): Enum_bass_fxh5	
+`shl`	bass_fx.html#shl,Enum_bass_fxh5,int	bass_fx: `shl`(x`gensym20565172: Enum_bass_fxh5; y`gensym20565173: int): Enum_bass_fxh5	
+`shl`	bass_fx.html#shl,int,Enum_bass_fxh5	bass_fx: `shl`(x`gensym20565174: int; y`gensym20565175: Enum_bass_fxh5): Enum_bass_fxh5	
+`shl`	bass_fx.html#shl,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `shl`(x`gensym20565176, y`gensym20565177: Enum_bass_fxh5): Enum_bass_fxh5	
+`shr`	bass_fx.html#shr,Enum_bass_fxh5,int	bass_fx: `shr`(x`gensym20565178: Enum_bass_fxh5; y`gensym20565179: int): Enum_bass_fxh5	
+`shr`	bass_fx.html#shr,int,Enum_bass_fxh5	bass_fx: `shr`(x`gensym20565180: int; y`gensym20565181: Enum_bass_fxh5): Enum_bass_fxh5	
+`shr`	bass_fx.html#shr,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `shr`(x`gensym20565182, y`gensym20565183: Enum_bass_fxh5): Enum_bass_fxh5	
+`or`	bass_fx.html#or,Enum_bass_fxh5,int	bass_fx: `or`(x`gensym20565184: Enum_bass_fxh5; y`gensym20565185: int): Enum_bass_fxh5	
+`or`	bass_fx.html#or,int,Enum_bass_fxh5	bass_fx: `or`(x`gensym20565186: int; y`gensym20565187: Enum_bass_fxh5): Enum_bass_fxh5	
+`or`	bass_fx.html#or,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `or`(x`gensym20565188, y`gensym20565189: Enum_bass_fxh5): Enum_bass_fxh5	
+`and`	bass_fx.html#and,Enum_bass_fxh5,int	bass_fx: `and`(x`gensym20565190: Enum_bass_fxh5; y`gensym20565191: int): Enum_bass_fxh5	
+`and`	bass_fx.html#and,int,Enum_bass_fxh5	bass_fx: `and`(x`gensym20565192: int; y`gensym20565193: Enum_bass_fxh5): Enum_bass_fxh5	
+`and`	bass_fx.html#and,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `and`(x`gensym20565194, y`gensym20565195: Enum_bass_fxh5): Enum_bass_fxh5	
+`xor`	bass_fx.html#xor,Enum_bass_fxh5,int	bass_fx: `xor`(x`gensym20565196: Enum_bass_fxh5; y`gensym20565197: int): Enum_bass_fxh5	
+`xor`	bass_fx.html#xor,int,Enum_bass_fxh5	bass_fx: `xor`(x`gensym20565198: int; y`gensym20565199: Enum_bass_fxh5): Enum_bass_fxh5	
+`xor`	bass_fx.html#xor,Enum_bass_fxh5,Enum_bass_fxh5	bass_fx: `xor`(x`gensym20565200, y`gensym20565201: Enum_bass_fxh5): Enum_bass_fxh5	
+`/`	bass_fx.html#/,Enum_bass_fxh5,int	bass_fx: `/`(x`gensym20565204: Enum_bass_fxh5; y`gensym20565205: int): Enum_bass_fxh5	
+`/`	bass_fx.html#/,int,Enum_bass_fxh5	bass_fx: `/`(x`gensym20565206: int; y`gensym20565207: Enum_bass_fxh5): Enum_bass_fxh5	
+`$`	bass_fx.html#$,Enum_bass_fxh5	bass_fx: `$`(x`gensym20565208: Enum_bass_fxh5): string	
+BASS_CTYPE_STREAM_TEMPO	bass_fx.html#BASS_CTYPE_STREAM_TEMPO	bass_fx: BASS_CTYPE_STREAM_TEMPO	
+BASS_CTYPE_STREAM_REVERSE	bass_fx.html#BASS_CTYPE_STREAM_REVERSE	bass_fx: BASS_CTYPE_STREAM_REVERSE	
+BASS_FX_FREESOURCE	bass_fx.html#BASS_FX_FREESOURCE	bass_fx: BASS_FX_FREESOURCE	
+BASS_BFX_CHANALL	bass_fx.html#BASS_BFX_CHANALL	bass_fx: BASS_BFX_CHANALL	
+BASS_BFX_CHANNONE	bass_fx.html#BASS_BFX_CHANNONE	bass_fx: BASS_BFX_CHANNONE	
+BASS_BFX_CHAN1	bass_fx.html#BASS_BFX_CHAN1	bass_fx: BASS_BFX_CHAN1	
+BASS_BFX_CHAN2	bass_fx.html#BASS_BFX_CHAN2	bass_fx: BASS_BFX_CHAN2	
+BASS_BFX_CHAN3	bass_fx.html#BASS_BFX_CHAN3	bass_fx: BASS_BFX_CHAN3	
+BASS_BFX_CHAN4	bass_fx.html#BASS_BFX_CHAN4	bass_fx: BASS_BFX_CHAN4	
+BASS_BFX_CHAN5	bass_fx.html#BASS_BFX_CHAN5	bass_fx: BASS_BFX_CHAN5	
+BASS_BFX_CHAN6	bass_fx.html#BASS_BFX_CHAN6	bass_fx: BASS_BFX_CHAN6	
+BASS_BFX_CHAN7	bass_fx.html#BASS_BFX_CHAN7	bass_fx: BASS_BFX_CHAN7	
+BASS_BFX_CHAN8	bass_fx.html#BASS_BFX_CHAN8	bass_fx: BASS_BFX_CHAN8	
+BASS_FX_BFX_ROTATE	bass_fx.html#BASS_FX_BFX_ROTATE	bass_fx: BASS_FX_BFX_ROTATE	
+BASS_FX_BFX_ECHO	bass_fx.html#BASS_FX_BFX_ECHO	bass_fx: BASS_FX_BFX_ECHO	
+BASS_FX_BFX_FLANGER	bass_fx.html#BASS_FX_BFX_FLANGER	bass_fx: BASS_FX_BFX_FLANGER	
+BASS_FX_BFX_VOLUME	bass_fx.html#BASS_FX_BFX_VOLUME	bass_fx: BASS_FX_BFX_VOLUME	
+BASS_FX_BFX_PEAKEQ	bass_fx.html#BASS_FX_BFX_PEAKEQ	bass_fx: BASS_FX_BFX_PEAKEQ	
+BASS_FX_BFX_REVERB	bass_fx.html#BASS_FX_BFX_REVERB	bass_fx: BASS_FX_BFX_REVERB	
+BASS_FX_BFX_LPF	bass_fx.html#BASS_FX_BFX_LPF	bass_fx: BASS_FX_BFX_LPF	
+BASS_FX_BFX_MIX	bass_fx.html#BASS_FX_BFX_MIX	bass_fx: BASS_FX_BFX_MIX	
+BASS_FX_BFX_DAMP	bass_fx.html#BASS_FX_BFX_DAMP	bass_fx: BASS_FX_BFX_DAMP	
+BASS_FX_BFX_AUTOWAH	bass_fx.html#BASS_FX_BFX_AUTOWAH	bass_fx: BASS_FX_BFX_AUTOWAH	
+BASS_FX_BFX_ECHO2	bass_fx.html#BASS_FX_BFX_ECHO2	bass_fx: BASS_FX_BFX_ECHO2	
+BASS_FX_BFX_PHASER	bass_fx.html#BASS_FX_BFX_PHASER	bass_fx: BASS_FX_BFX_PHASER	
+BASS_FX_BFX_ECHO3	bass_fx.html#BASS_FX_BFX_ECHO3	bass_fx: BASS_FX_BFX_ECHO3	
+BASS_FX_BFX_CHORUS	bass_fx.html#BASS_FX_BFX_CHORUS	bass_fx: BASS_FX_BFX_CHORUS	
+BASS_FX_BFX_APF	bass_fx.html#BASS_FX_BFX_APF	bass_fx: BASS_FX_BFX_APF	
+BASS_FX_BFX_COMPRESSOR	bass_fx.html#BASS_FX_BFX_COMPRESSOR	bass_fx: BASS_FX_BFX_COMPRESSOR	
+BASS_FX_BFX_DISTORTION	bass_fx.html#BASS_FX_BFX_DISTORTION	bass_fx: BASS_FX_BFX_DISTORTION	
+BASS_FX_BFX_COMPRESSOR2	bass_fx.html#BASS_FX_BFX_COMPRESSOR2	bass_fx: BASS_FX_BFX_COMPRESSOR2	
+BASS_FX_BFX_VOLUME_ENV	bass_fx.html#BASS_FX_BFX_VOLUME_ENV	bass_fx: BASS_FX_BFX_VOLUME_ENV	
+BASS_FX_BFX_BQF	bass_fx.html#BASS_FX_BFX_BQF	bass_fx: BASS_FX_BFX_BQF	
+BASS_FX_BFX_ECHO4	bass_fx.html#BASS_FX_BFX_ECHO4	bass_fx: BASS_FX_BFX_ECHO4	
+BASS_FX_BFX_PITCHSHIFT	bass_fx.html#BASS_FX_BFX_PITCHSHIFT	bass_fx: BASS_FX_BFX_PITCHSHIFT	
+BASS_FX_BFX_FREEVERB	bass_fx.html#BASS_FX_BFX_FREEVERB	bass_fx: BASS_FX_BFX_FREEVERB	
+BASS_BFX_BQF_LOWPASS	bass_fx.html#BASS_BFX_BQF_LOWPASS	bass_fx: BASS_BFX_BQF_LOWPASS	
+BASS_BFX_BQF_HIGHPASS	bass_fx.html#BASS_BFX_BQF_HIGHPASS	bass_fx: BASS_BFX_BQF_HIGHPASS	
+BASS_BFX_BQF_BANDPASS	bass_fx.html#BASS_BFX_BQF_BANDPASS	bass_fx: BASS_BFX_BQF_BANDPASS	
+BASS_BFX_BQF_BANDPASS_Q	bass_fx.html#BASS_BFX_BQF_BANDPASS_Q	bass_fx: BASS_BFX_BQF_BANDPASS_Q	
+BASS_BFX_BQF_NOTCH	bass_fx.html#BASS_BFX_BQF_NOTCH	bass_fx: BASS_BFX_BQF_NOTCH	
+BASS_BFX_BQF_ALLPASS	bass_fx.html#BASS_BFX_BQF_ALLPASS	bass_fx: BASS_BFX_BQF_ALLPASS	
+BASS_BFX_BQF_PEAKINGEQ	bass_fx.html#BASS_BFX_BQF_PEAKINGEQ	bass_fx: BASS_BFX_BQF_PEAKINGEQ	
+BASS_BFX_BQF_LOWSHELF	bass_fx.html#BASS_BFX_BQF_LOWSHELF	bass_fx: BASS_BFX_BQF_LOWSHELF	
+BASS_BFX_BQF_HIGHSHELF	bass_fx.html#BASS_BFX_BQF_HIGHSHELF	bass_fx: BASS_BFX_BQF_HIGHSHELF	
+BASS_BFX_FREEVERB_MODE_FREEZE	bass_fx.html#BASS_BFX_FREEVERB_MODE_FREEZE	bass_fx: BASS_BFX_FREEVERB_MODE_FREEZE	
+BASS_ATTRIB_TEMPO	bass_fx.html#BASS_ATTRIB_TEMPO	bass_fx: BASS_ATTRIB_TEMPO	
+BASS_ATTRIB_TEMPO_PITCH	bass_fx.html#BASS_ATTRIB_TEMPO_PITCH	bass_fx: BASS_ATTRIB_TEMPO_PITCH	
+BASS_ATTRIB_TEMPO_FREQ	bass_fx.html#BASS_ATTRIB_TEMPO_FREQ	bass_fx: BASS_ATTRIB_TEMPO_FREQ	
+BASS_ATTRIB_TEMPO_OPTION_USE_AA_FILTER	bass_fx.html#BASS_ATTRIB_TEMPO_OPTION_USE_AA_FILTER	bass_fx: BASS_ATTRIB_TEMPO_OPTION_USE_AA_FILTER	
+BASS_ATTRIB_TEMPO_OPTION_AA_FILTER_LENGTH	bass_fx.html#BASS_ATTRIB_TEMPO_OPTION_AA_FILTER_LENGTH	bass_fx: BASS_ATTRIB_TEMPO_OPTION_AA_FILTER_LENGTH	
+BASS_ATTRIB_TEMPO_OPTION_USE_QUICKALGO	bass_fx.html#BASS_ATTRIB_TEMPO_OPTION_USE_QUICKALGO	bass_fx: BASS_ATTRIB_TEMPO_OPTION_USE_QUICKALGO	
+BASS_ATTRIB_TEMPO_OPTION_SEQUENCE_MS	bass_fx.html#BASS_ATTRIB_TEMPO_OPTION_SEQUENCE_MS	bass_fx: BASS_ATTRIB_TEMPO_OPTION_SEQUENCE_MS	
+BASS_ATTRIB_TEMPO_OPTION_SEEKWINDOW_MS	bass_fx.html#BASS_ATTRIB_TEMPO_OPTION_SEEKWINDOW_MS	bass_fx: BASS_ATTRIB_TEMPO_OPTION_SEEKWINDOW_MS	
+BASS_ATTRIB_TEMPO_OPTION_OVERLAP_MS	bass_fx.html#BASS_ATTRIB_TEMPO_OPTION_OVERLAP_MS	bass_fx: BASS_ATTRIB_TEMPO_OPTION_OVERLAP_MS	
+BASS_ATTRIB_TEMPO_OPTION_PREVENT_CLICK	bass_fx.html#BASS_ATTRIB_TEMPO_OPTION_PREVENT_CLICK	bass_fx: BASS_ATTRIB_TEMPO_OPTION_PREVENT_CLICK	
+BASS_FX_TEMPO_ALGO_LINEAR	bass_fx.html#BASS_FX_TEMPO_ALGO_LINEAR	bass_fx: BASS_FX_TEMPO_ALGO_LINEAR	
+BASS_FX_TEMPO_ALGO_CUBIC	bass_fx.html#BASS_FX_TEMPO_ALGO_CUBIC	bass_fx: BASS_FX_TEMPO_ALGO_CUBIC	
+BASS_FX_TEMPO_ALGO_SHANNON	bass_fx.html#BASS_FX_TEMPO_ALGO_SHANNON	bass_fx: BASS_FX_TEMPO_ALGO_SHANNON	
+BASS_ATTRIB_REVERSE_DIR	bass_fx.html#BASS_ATTRIB_REVERSE_DIR	bass_fx: BASS_ATTRIB_REVERSE_DIR	
+BASS_FX_RVS_REVERSE	bass_fx.html#BASS_FX_RVS_REVERSE	bass_fx: BASS_FX_RVS_REVERSE	
+BASS_FX_RVS_FORWARD	bass_fx.html#BASS_FX_RVS_FORWARD	bass_fx: BASS_FX_RVS_FORWARD	
+BASS_FX_BPM_BKGRND	bass_fx.html#BASS_FX_BPM_BKGRND	bass_fx: BASS_FX_BPM_BKGRND	
+BASS_FX_BPM_MULT2	bass_fx.html#BASS_FX_BPM_MULT2	bass_fx: BASS_FX_BPM_MULT2	
+BASS_FX_BPM_TRAN_X2	bass_fx.html#BASS_FX_BPM_TRAN_X2	bass_fx: BASS_FX_BPM_TRAN_X2	
+BASS_FX_BPM_TRAN_2FREQ	bass_fx.html#BASS_FX_BPM_TRAN_2FREQ	bass_fx: BASS_FX_BPM_TRAN_2FREQ	
+BASS_FX_BPM_TRAN_FREQ2	bass_fx.html#BASS_FX_BPM_TRAN_FREQ2	bass_fx: BASS_FX_BPM_TRAN_FREQ2	
+BASS_FX_BPM_TRAN_2PERCENT	bass_fx.html#BASS_FX_BPM_TRAN_2PERCENT	bass_fx: BASS_FX_BPM_TRAN_2PERCENT	
+BASS_FX_BPM_TRAN_PERCENT2	bass_fx.html#BASS_FX_BPM_TRAN_PERCENT2	bass_fx: BASS_FX_BPM_TRAN_PERCENT2	
+BASS_BFX_ROTATE	bass_fx.html#BASS_BFX_ROTATE	bass_fx: BASS_BFX_ROTATE	
+BASS_BFX_ECHO	bass_fx.html#BASS_BFX_ECHO	bass_fx: BASS_BFX_ECHO	
+BASS_BFX_FLANGER	bass_fx.html#BASS_BFX_FLANGER	bass_fx: BASS_BFX_FLANGER	
+BASS_BFX_VOLUME	bass_fx.html#BASS_BFX_VOLUME	bass_fx: BASS_BFX_VOLUME	
+BASS_BFX_PEAKEQ	bass_fx.html#BASS_BFX_PEAKEQ	bass_fx: BASS_BFX_PEAKEQ	
+BASS_BFX_REVERB	bass_fx.html#BASS_BFX_REVERB	bass_fx: BASS_BFX_REVERB	
+BASS_BFX_LPF	bass_fx.html#BASS_BFX_LPF	bass_fx: BASS_BFX_LPF	
+BASS_BFX_MIX	bass_fx.html#BASS_BFX_MIX	bass_fx: BASS_BFX_MIX	
+BASS_BFX_DAMP	bass_fx.html#BASS_BFX_DAMP	bass_fx: BASS_BFX_DAMP	
+BASS_BFX_AUTOWAH	bass_fx.html#BASS_BFX_AUTOWAH	bass_fx: BASS_BFX_AUTOWAH	
+BASS_BFX_ECHO2	bass_fx.html#BASS_BFX_ECHO2	bass_fx: BASS_BFX_ECHO2	
+BASS_BFX_PHASER	bass_fx.html#BASS_BFX_PHASER	bass_fx: BASS_BFX_PHASER	
+BASS_BFX_ECHO3	bass_fx.html#BASS_BFX_ECHO3	bass_fx: BASS_BFX_ECHO3	
+BASS_BFX_CHORUS	bass_fx.html#BASS_BFX_CHORUS	bass_fx: BASS_BFX_CHORUS	
+BASS_BFX_APF	bass_fx.html#BASS_BFX_APF	bass_fx: BASS_BFX_APF	
+BASS_BFX_COMPRESSOR	bass_fx.html#BASS_BFX_COMPRESSOR	bass_fx: BASS_BFX_COMPRESSOR	
+BASS_BFX_DISTORTION	bass_fx.html#BASS_BFX_DISTORTION	bass_fx: BASS_BFX_DISTORTION	
+BASS_BFX_COMPRESSOR2	bass_fx.html#BASS_BFX_COMPRESSOR2	bass_fx: BASS_BFX_COMPRESSOR2	
+BASS_BFX_VOLUME_ENV	bass_fx.html#BASS_BFX_VOLUME_ENV	bass_fx: BASS_BFX_VOLUME_ENV	
+BASS_BFX_ENV_NODE	bass_fx.html#BASS_BFX_ENV_NODE	bass_fx: BASS_BFX_ENV_NODE	
+BASS_BFX_BQF	bass_fx.html#BASS_BFX_BQF	bass_fx: BASS_BFX_BQF	
+BASS_BFX_ECHO4	bass_fx.html#BASS_BFX_ECHO4	bass_fx: BASS_BFX_ECHO4	
+BASS_BFX_PITCHSHIFT	bass_fx.html#BASS_BFX_PITCHSHIFT	bass_fx: BASS_BFX_PITCHSHIFT	
+BASS_BFX_FREEVERB	bass_fx.html#BASS_BFX_FREEVERB	bass_fx: BASS_BFX_FREEVERB	
+BPMPROC	bass_fx.html#BPMPROC	bass_fx: BPMPROC	
+BPMPROGRESSPROC	bass_fx.html#BPMPROGRESSPROC	bass_fx: BPMPROGRESSPROC	
+BPMPROCESSPROC	bass_fx.html#BPMPROCESSPROC	bass_fx: BPMPROCESSPROC	
+BPMBEATPROC	bass_fx.html#BPMBEATPROC	bass_fx: BPMBEATPROC	
+BASS_FX_GetVersion	bass_fx.html#BASS_FX_GetVersion	bass_fx: BASS_FX_GetVersion(): DWORD	
+BASS_FX_TempoCreate	bass_fx.html#BASS_FX_TempoCreate,DWORD,DWORD	bass_fx: BASS_FX_TempoCreate(chan: DWORD; flags: DWORD): HSTREAM	
+BASS_FX_TempoGetSource	bass_fx.html#BASS_FX_TempoGetSource,HSTREAM	bass_fx: BASS_FX_TempoGetSource(chan: HSTREAM): DWORD	
+BASS_FX_TempoGetRateRatio	bass_fx.html#BASS_FX_TempoGetRateRatio,HSTREAM	bass_fx: BASS_FX_TempoGetRateRatio(chan: HSTREAM): cfloat	
+BASS_FX_ReverseCreate	bass_fx.html#BASS_FX_ReverseCreate,DWORD,cfloat,DWORD	bass_fx: BASS_FX_ReverseCreate(chan: DWORD; dec_block: cfloat; flags: DWORD): HSTREAM	
+BASS_FX_ReverseGetSource	bass_fx.html#BASS_FX_ReverseGetSource,HSTREAM	bass_fx: BASS_FX_ReverseGetSource(chan: HSTREAM): DWORD	
+BASS_FX_BPM_DecodeGet	bass_fx.html#BASS_FX_BPM_DecodeGet,DWORD,cdouble,cdouble,DWORD,DWORD,ptr.BPMPROGRESSPROC,pointer	bass_fx: BASS_FX_BPM_DecodeGet(chan: DWORD; startSec: cdouble; endSec: cdouble;\n                      minMaxBPM: DWORD; flags: DWORD; `proc`: ptr BPMPROGRESSPROC;\n                      user: pointer): cfloat	
+BASS_FX_BPM_CallbackSet	bass_fx.html#BASS_FX_BPM_CallbackSet,DWORD,ptr.BPMPROC,cdouble,DWORD,DWORD,pointer	bass_fx: BASS_FX_BPM_CallbackSet(handle: DWORD; `proc`: ptr BPMPROC; period: cdouble;\n                        minMaxBPM: DWORD; flags: DWORD; user: pointer): BOOL	
+BASS_FX_BPM_CallbackReset	bass_fx.html#BASS_FX_BPM_CallbackReset,DWORD	bass_fx: BASS_FX_BPM_CallbackReset(handle: DWORD): BOOL	
+BASS_FX_BPM_Translate	bass_fx.html#BASS_FX_BPM_Translate,DWORD,cfloat,DWORD	bass_fx: BASS_FX_BPM_Translate(handle: DWORD; val2tran: cfloat; trans: DWORD): cfloat	
+BASS_FX_BPM_Free	bass_fx.html#BASS_FX_BPM_Free,DWORD	bass_fx: BASS_FX_BPM_Free(handle: DWORD): BOOL	
+BASS_FX_BPM_BeatCallbackSet	bass_fx.html#BASS_FX_BPM_BeatCallbackSet,DWORD,ptr.BPMBEATPROC,pointer	bass_fx: BASS_FX_BPM_BeatCallbackSet(handle: DWORD; `proc`: ptr BPMBEATPROC; user: pointer): BOOL	
+BASS_FX_BPM_BeatCallbackReset	bass_fx.html#BASS_FX_BPM_BeatCallbackReset,DWORD	bass_fx: BASS_FX_BPM_BeatCallbackReset(handle: DWORD): BOOL	
+BASS_FX_BPM_BeatDecodeGet	bass_fx.html#BASS_FX_BPM_BeatDecodeGet,DWORD,cdouble,cdouble,DWORD,ptr.BPMBEATPROC,pointer	bass_fx: BASS_FX_BPM_BeatDecodeGet(chan: DWORD; startSec: cdouble; endSec: cdouble;\n                          flags: DWORD; `proc`: ptr BPMBEATPROC; user: pointer): BOOL	
+BASS_FX_BPM_BeatSetParameters	bass_fx.html#BASS_FX_BPM_BeatSetParameters,DWORD,cfloat,cfloat,cfloat	bass_fx: BASS_FX_BPM_BeatSetParameters(handle: DWORD; bandwidth: cfloat; centerfreq: cfloat;\n                              beat_rtime: cfloat): BOOL	
+BASS_FX_BPM_BeatGetParameters	bass_fx.html#BASS_FX_BPM_BeatGetParameters,DWORD,ptr.cfloat,ptr.cfloat,ptr.cfloat	bass_fx: BASS_FX_BPM_BeatGetParameters(handle: DWORD; bandwidth: ptr cfloat;\n                              centerfreq: ptr cfloat; beat_rtime: ptr cfloat): BOOL	
+BASS_FX_BPM_BeatFree	bass_fx.html#BASS_FX_BPM_BeatFree,DWORD	bass_fx: BASS_FX_BPM_BeatFree(handle: DWORD): BOOL	
