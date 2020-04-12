@@ -2,37 +2,38 @@ import os, strutils
 
 import nimterop/[build, cimport]
 
-static:
-  cDebug()
+proc getArchSuffix(): string =
+  when not defined(osx) and sizeof(int) == 8:
+    result = "x64"
+
+proc getOsSuffix*(): string =
+  when defined(linux):
+    result = "-linux"
+  elif defined(osx):
+    result = "-osx"
+
+proc getArchLibPath*(lpath: string): string =
+  let
+    lpathFile = lpath.extractFilename()
+    lpathBPath = lpath.parentDir()
+    archSuffix = getArchSuffix()
+
+  # x64 binaries in subdir on Win/Lin
+  result =
+    if archSuffix.len != 0:
+      lpathBPath / archSuffix / lpathFile
+    else:
+      lpath
 
 const
   baseDir = getProjectCacheDir("nimbass")
 
-const
-  arch =
-    when sizeof(int) == 8: "x64"
-    else: ""
+  dlUrl = "http://uk.un4seen.com/files/bass$1" & getOsSuffix() & ".zip"
 
-when defined(windows):
-  const
-    osSuffix = ""
-    archSuffix = arch
-elif defined(linux):
-  const
-    osSuffix = "-linux"
-    archSuffix = arch
-elif defined(osx):
-  const
-    osSuffix = "-osx"
-    archSuffix = ""
-else:
-    doAssert false, "Unsupported OS"
+static:
+  cDebug()
 
-const
-  dlUrl = "http://uk.un4seen.com/files/bass24$1.zip" % osSuffix
-  fxDlUrl = "http://uk.un4seen.com/files/z/0/bass_fx24$1.zip" % osSuffix
-
-setDefines(@["bassDL"])
+setDefines(@["bassDL", "bassSetVer=24"])
 
 getHeader(
   "bass.h",
@@ -40,14 +41,17 @@ getHeader(
   outdir = baseDir
 )
 
-# x64 binaries in subdir on Win/Lin
+when hostOS=="windows":
+  cOverride:
+    type
+      HWND* = uint32
+      GUID* = uint32
+      WORD* = uint32
+      DWORD* = uint32
+      BYTE* = uint8
+      BOOL* = uint8
+
 const
-  bassLFile = bassLPath.extractFilename()
-  bassLBPath = bassLPath.parentDir()
-  bassLPathArch =
-    if archSuffix.len != 0:
-      bassLBPath / archSuffix / bassLFile
-    else:
-      bassLPath
+  bassLPathArch = getArchLibPath(bassLPath)
 
 cImport(bassPath, dynlib = "bassLPathArch", flags = "-f:ast2")

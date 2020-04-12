@@ -12,4 +12,4 @@ skipDirs = @["tests"]
 requires "nimterop#head"
 
 task test, "Test nimbass":
-  exec "nim c -f -r --path:.. tests/basstest.nim"
+  exec "nim c -r --path:.. tests/basstest.nim"
