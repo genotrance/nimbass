@@ -33,5 +33,8 @@ getHeader(
 const
   bassfxLPathArch = getArchLibPath(bassfxLPath)
 
+  convention = when defined(windows): " -C:stdcall" else: ""
+
 cIncludeDir(bassPath.parentDir())
-cImport(bassfxPath, dynlib = "bassfxLPathArch", flags = "-f:ast2")
+
+cImport(bassfxPath, dynlib = "bassfxLPathArch", flags = "-f:ast2" & convention)
