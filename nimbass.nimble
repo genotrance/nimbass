@@ -17,6 +17,12 @@ let
   osLD = when defined(osx): "DY" else: ""
   ldpath = when defined(posix): osLD & "LD_LIBRARY_PATH=" & cache & osDir & " " else: ""
 
+when gorgeEx("nimble path nimterop").exitCode == 0:
+  import nimterop/docs
+  task docs, "Generate docs": buildDocs(@["nimbass/bass.nim", "nimbass/bass_fx.nim"], "build/htmldocs")
+else:
+  task docs, "Do nothing": discard
+
 task test, "Test nimbass":
   exec "nim c -d:nimDebugDlOpen --path:.. tests/basstest.nim"
   exec ldpath & "./tests/basstest"

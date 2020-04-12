@@ -1,6 +1,6 @@
 NimBASS is a [Nim](https://nim-lang.org/) wrapper for the [BASS](http://www.un4seen.com/) audio library.
 
-NimBASS is distributed as a [Nimble](https://github.com/nim-lang/nimble) package and depends on [nimgen](https://github.com/genotrance/nimgen) and [c2nim](https://github.com/nim-lang/c2nim/) to generate the wrappers. The BASS library and header files are downloaded using curl/powershell and extracted using unzip/powershell.
+NimBASS is distributed as a [Nimble](https://github.com/nim-lang/nimble) package and depends on [nimterop](https://github.com/nimterop/nimterop) to generate the wrappers. The BASS library and header files are downloaded using curl/powershell and extracted using unzip/powershell.
 
 __Installation__
 
@@ -14,7 +14,7 @@ This will download, wrap and install NimBASS in the standard Nimble package loca
 
 __Usage__
 
-Module documentation can be found [here](http://nimgen.genotrance.com/nimbass).
+Module documentation can be found [here](https://genotrance.github.io/nimbass/theindex.html).
 
 ```nim
 import strutils
@@ -28,13 +28,11 @@ echo "Bass: " & $BASS_GetVersion().toHex()
 echo "Bass FX: " & $BASS_FX_GetVersion().toHex()
 ```
 
-NimBASS currently wraps the main BASS functions and BASS FX. Make sure to copy the appropriate dll/dylib/so files into the lib path or the executable directory. They will be in the ```~/.nimble/pkgs/nimbass-xxx/nimbass/nimbass``` directory
+NimBASS currently wraps the main BASS functions and BASS FX and dynamically links to the binaries in `$HOME/.cache/nim/nimterop/nimbass` directory.
 
 __Credits__
 
 NimBASS wraps BASS and all licensing terms of [BASS](http://www.un4seen.com/bass.html#license) apply to the usage of this package.
-
-Credits go out to [c2nim](https://github.com/nim-lang/c2nim/) as well without which this package would be greatly limited in its abilities.
 
 __Feedback__
 
