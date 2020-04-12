@@ -12,7 +12,11 @@ skipDirs = @["tests"]
 requires "nimterop#head"
 
 let
-  ldpath = when defined(Linux): "LD_LIBRARY_PATH=" & "$HOME/.cache/nim/nimterop/nimbass/x64 " else: ""
+  cache = "$HOME/.cache/nim/nimterop/nimbass"
+  osDir = when defined(linux): "/x64" else: ""
+  osLD = when defined(osx): "DY" else: ""
+  ldpath = when defined(posix): osLD & "LD_LIBRARY_PATH=" & cache & osDir & " " else: ""
 
 task test, "Test nimbass":
-  exec ldpath & "nim c -d:nimDebugDlOpen -r --path:.. tests/basstest.nim"
+  exec "nim c -d:nimDebugDlOpen --path:.. tests/basstest.nim"
+  exec ldpath & "./tests/basstest"
