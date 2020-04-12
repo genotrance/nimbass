@@ -54,4 +54,9 @@ when hostOS=="windows":
 const
   bassLPathArch = getArchLibPath(bassLPath)
 
-cImport(bassPath, dynlib = "bassLPathArch", flags = "-f:ast2")
+when defined(windows):
+  cImport(bassPath, dynlib = "bassLPathArch", flags = "-f:ast2")
+else:
+  # Link instead of dynlib - other bass binaries need bass.dll/so
+  {.passL: "-L" & bassLPathArch.parentDir() & " -lbass".}
+  cImport(bassPath, flags = "-f:ast2")
