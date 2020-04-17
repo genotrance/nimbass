@@ -11,11 +11,22 @@ skipDirs = @["tests"]
 
 requires "nimterop#head"
 
+import strformat
+
 let
   cache = "$HOME/.cache/nim/nimterop/nimbass"
+  cachefx = "$HOME/.cache/nim/nimterop/nimbassfx"
+
   osDir = when defined(linux): "/x64" else: ""
   osLD = when defined(osx): "DY" else: ""
-  ldpath = when defined(posix): osLD & "LD_LIBRARY_PATH=" & cache & osDir & " " else: ""
+
+  bassPath = &"{cache}{osDir}"
+  bassfxPath = &"{cachefx}{osDir}"
+
+  ldpath = when defined(posix): &"{osLD}LD_LIBRARY_PATH={bassPath}:{bassfxPath} " else: ""
+
+when defined(windows):
+  putEnv("PATH", getEnv("PATH") & &";{bassPath};{bassfxPath}")
 
 when gorgeEx("nimble path nimterop").exitCode == 0:
   import nimterop/docs
