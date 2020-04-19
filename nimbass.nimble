@@ -11,22 +11,27 @@ skipDirs = @["tests"]
 
 requires "nimterop#head"
 
-import strformat
+import os, strformat
 
 let
-  cache = "$HOME/.cache/nim/nimterop/nimbass"
-  cachefx = "$HOME/.cache/nim/nimterop/nimbassfx"
+  # Location of bass and bass_fx binaries
+  cache =
+    when defined(posix):
+      getEnv("HOME") / ".cache/nim/nimterop"
+    else:
+      getEnv("USERPROFILE") / "nimcache\\nimterop"
 
-  osDir = when defined(linux): "/x64" else: ""
+  # Arch
+  osDir = when defined(amd64): "x64" else: ""
+
+  bassPath = cache / "nimbass" / osDir
+  bassfxPath = cache / "nimbassfx" / osDir
+
+  # OSX uses DYLD_LIBRARY_PATH
   osLD = when defined(osx): "DY" else: ""
 
-  bassPath = &"{cache}{osDir}"
-  bassfxPath = &"{cachefx}{osDir}"
-
+  # Path to .so and .dylib files specified in LD_LIBRARY_PATH
   ldpath = when defined(posix): &"{osLD}LD_LIBRARY_PATH={bassPath}:{bassfxPath} " else: ""
-
-when defined(windows):
-  putEnv("PATH", getEnv("PATH") & &";{bassPath};{bassfxPath}")
 
 when gorgeEx("nimble path nimterop").exitCode == 0:
   import nimterop/docs
@@ -35,5 +40,9 @@ else:
   task docs, "Do nothing": discard
 
 task test, "Test nimbass":
+  when defined(windows):
+    # Windows searches for DLLs in PATH
+    putEnv("PATH", getEnv("PATH") & &";{bassPath};{bassfxPath}")
+
   exec "nim c -d:nimDebugDlOpen --path:.. tests/basstest.nim"
   exec ldpath & "./tests/basstest"
