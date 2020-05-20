@@ -32,6 +32,7 @@ const
 
 static:
   cDebug()
+  cSkipSymbol(@["STREAMPROC_DUMMY", "STREAMPROC_PUSH", "STREAMPROC_DEVICE", "STREAMPROC_DEVICE_3D"])
 
 setDefines(@["bassDL", "bassSetVer=24"])
 

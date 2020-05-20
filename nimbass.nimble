@@ -44,5 +44,5 @@ task test, "Test nimbass":
     # Windows searches for DLLs in PATH
     putEnv("PATH", getEnv("PATH") & &";{bassPath};{bassfxPath}")
 
-  exec "nim c -d:nimDebugDlOpen --path:.. tests/basstest.nim"
+  exec "nim c -f -d:nimDebugDlOpen --path:.. tests/basstest.nim"
   exec ldpath & "./tests/basstest"
