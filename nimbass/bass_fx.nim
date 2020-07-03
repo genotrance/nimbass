@@ -24,16 +24,15 @@ proc bassfxPreBuild(outdir, header: string) =
     if "bass.h" notin bfxhd:
       writeFile(bfxh, "#include \"bass.h\"\n" & bfxhd)
 
+  rmSharedByArch(outdir, "bass_fx")
+
 getHeader(
   "bass_fx.h",
   dlurl = dlUrl,
   outdir = baseDir
 )
 
-const
-  bassfxLPathArch = getArchLibPath(bassfxLPath)
-
 cIncludeDir(bassPath.parentDir())
 
-{.passL: "-L" & bassfxLPathArch.parentDir() & " -lbass_fx".}
+{.passL: "-lbass_fx".}
 cImport(bassfxPath, flags = cImportFlags)

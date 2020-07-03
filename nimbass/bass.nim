@@ -2,28 +2,22 @@ import os, strutils
 
 import nimterop/[build, cimport]
 
-proc getArchSuffix(): string =
-  when not defined(osx) and sizeof(int) == 8:
-    result = "x64"
-
 proc getOsSuffix*(): string =
   when defined(linux):
     result = "-linux"
   elif defined(osx):
     result = "-osx"
 
-proc getArchLibPath*(lpath: string): string =
-  let
-    lpathFile = lpath.extractFilename()
-    lpathBPath = lpath.parentDir()
-    archSuffix = getArchSuffix()
-
-  # x64 binaries in subdir on Win/Lin
-  result =
-    if archSuffix.len != 0:
-      lpathBPath / archSuffix / lpathFile
-    else:
-      lpath
+proc rmSharedByArch*(outdir, name: string) =
+  # Delete shared lib that doesn't match current architecture
+  if sizeof(int) == 4:
+    if fileExists(outdir / "x64"):
+      rmDir(outdir / "")
+  else:
+    let
+      shared = DynlibFormat % name
+    if fileExists(outdir / shared):
+      rmFile(outdir / shared)
 
 const
   baseDir = getProjectCacheDir("nimbass")
@@ -35,6 +29,9 @@ static:
   cSkipSymbol(@["STREAMPROC_DUMMY", "STREAMPROC_PUSH", "STREAMPROC_DEVICE", "STREAMPROC_DEVICE_3D"])
 
 setDefines(@["bassDL", "bassSetVer=24"])
+
+proc bassPreBuild(outdir, header: string) =
+  rmSharedByArch(outdir, "bass")
 
 getHeader(
   "bass.h",
@@ -53,11 +50,10 @@ when hostOS=="windows":
       BOOL* = uint8
 
 const
-  bassLPathArch = getArchLibPath(bassLPath)
+  cImportFlags* = (when defined(windows): " -C:stdcall" else: "")
 
-  cImportFlags* = "-f:ast2" & (when defined(windows): " -C:stdcall" else: "")
-
-# Link instead of dynlib - other bass binaries need bass.dll/so loaded globally
-# plus allows user to load library from other locations
-{.passL: "-L" & bassLPathArch.parentDir() & " -lbass".}
+# Link instead of dynlib - other bass binaries like bass_fx need bass loaded
+# globally. Also, nimterop copies shared libs to executable path so set
+# `-rpath=.` so that libs are found in current directory at runtime.
+{.passL: "-Wl,-rpath -Wl,. -L. -lbass".}
 cImport(bassPath, flags = cImportFlags)
