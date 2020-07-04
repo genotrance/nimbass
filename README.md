@@ -28,7 +28,7 @@ echo "Bass: " & $BASS_GetVersion().toHex()
 echo "Bass FX: " & $BASS_FX_GetVersion().toHex()
 ```
 
-NimBASS currently wraps BASS and BASS FX and dynamically links to the binaries downloaded to `$HOME/.cache/nim/nimterop/nimbass` and `nimbassfx` directories. These paths can be added to `PATH` on Windows, `LD_LIBRARY_PATH` on Linux and `DYLD_LIBRARY_PATH` on OSX so that the binaries are loaded at runtime. Alternatively, the binaries can be moved to another location and the variables updated accordingly. See `nimbass.nimble` for an example.
+NimBASS currently wraps BASS and BASS FX and dynamically links to the binaries that get copied to the application executable directory. At runtime, they are loaded with `-rpath`.
 
 __Credits__
 
