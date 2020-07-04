@@ -1,55 +1,99 @@
 getOsSuffix	bass.html#getOsSuffix	bass: getOsSuffix(): string	
-getArchLibPath	bass.html#getArchLibPath,string	bass: getArchLibPath(lpath: string): string	
+rmSharedByArch	bass.html#rmSharedByArch,string,string	bass: rmSharedByArch(outdir, name: string)	
 bassStd	bass.html#bassStd	bass: bassStd	
 bassGit	bass.html#bassGit	bass: bassGit	
 bassDL	bass.html#bassDL	bass: bassDL	
+bassConan	bass.html#bassConan	bass: bassConan	
+bassJBB	bass.html#bassJBB	bass: bassJBB	
 bassStatic	bass.html#bassStatic	bass: bassStatic	
 bassSetVer	bass.html#bassSetVer	bass: bassSetVer	
-bassLPath	bass.html#bassLPath	bass: bassLPath	
 bassPath	bass.html#bassPath	bass: bassPath	
+bassLPath	bass.html#bassLPath	bass: bassLPath	
+bassLDeps	bass.html#bassLDeps	bass: bassLDeps	
+cImportFlags	bass.html#cImportFlags	bass: cImportFlags	
 Enum_bassh1	bass.html#Enum_bassh1	bass: Enum_bassh1	
-`+`	bass.html#+,Enum_bassh1,int	bass: `+`(x`gensym20260003: Enum_bassh1; y`gensym20260004: int): Enum_bassh1	
-`+`	bass.html#+,int,Enum_bassh1	bass: `+`(x`gensym20260005: int; y`gensym20260006: Enum_bassh1): Enum_bassh1	
-`+`	bass.html#+,Enum_bassh1,Enum_bassh1	bass: `+`(x`gensym20260007, y`gensym20260008: Enum_bassh1): Enum_bassh1	
-`-`	bass.html#-,Enum_bassh1,int	bass: `-`(x`gensym20265015: Enum_bassh1; y`gensym20265016: int): Enum_bassh1	
-`-`	bass.html#-,int,Enum_bassh1	bass: `-`(x`gensym20265017: int; y`gensym20265018: Enum_bassh1): Enum_bassh1	
-`-`	bass.html#-,Enum_bassh1,Enum_bassh1	bass: `-`(x`gensym20265019, y`gensym20265020: Enum_bassh1): Enum_bassh1	
-`*`	bass.html#*,Enum_bassh1,int	bass: `*`(x`gensym20270015: Enum_bassh1; y`gensym20270016: int): Enum_bassh1	
-`*`	bass.html#*,int,Enum_bassh1	bass: `*`(x`gensym20270017: int; y`gensym20270018: Enum_bassh1): Enum_bassh1	
-`*`	bass.html#*,Enum_bassh1,Enum_bassh1	bass: `*`(x`gensym20270019, y`gensym20270020: Enum_bassh1): Enum_bassh1	
-`&lt;`	bass.html#<,Enum_bassh1,int	bass: `&lt;`(x`gensym20275015: Enum_bassh1; y`gensym20275016: int): bool	
-`&lt;`	bass.html#<,int,Enum_bassh1	bass: `&lt;`(x`gensym20275017: int; y`gensym20275018: Enum_bassh1): bool	
-`&lt;`	bass.html#<,Enum_bassh1,Enum_bassh1	bass: `&lt;`(x`gensym20275019, y`gensym20275020: Enum_bassh1): bool	
-`&lt;=`	bass.html#<=,Enum_bassh1,int	bass: `&lt;=`(x`gensym20280015: Enum_bassh1; y`gensym20280016: int): bool	
-`&lt;=`	bass.html#<=,int,Enum_bassh1	bass: `&lt;=`(x`gensym20280017: int; y`gensym20280018: Enum_bassh1): bool	
-`&lt;=`	bass.html#<=,Enum_bassh1,Enum_bassh1	bass: `&lt;=`(x`gensym20280019, y`gensym20280020: Enum_bassh1): bool	
-`==`	bass.html#==,Enum_bassh1,int	bass: `==`(x`gensym20285015: Enum_bassh1; y`gensym20285016: int): bool	
-`==`	bass.html#==,int,Enum_bassh1	bass: `==`(x`gensym20285017: int; y`gensym20285018: Enum_bassh1): bool	
-`==`	bass.html#==,Enum_bassh1,Enum_bassh1	bass: `==`(x`gensym20285019, y`gensym20285020: Enum_bassh1): bool	
-`div`	bass.html#div,Enum_bassh1,int	bass: `div`(x`gensym20290015: Enum_bassh1; y`gensym20290016: int): Enum_bassh1	
-`div`	bass.html#div,int,Enum_bassh1	bass: `div`(x`gensym20290017: int; y`gensym20290018: Enum_bassh1): Enum_bassh1	
-`div`	bass.html#div,Enum_bassh1,Enum_bassh1	bass: `div`(x`gensym20290019, y`gensym20290020: Enum_bassh1): Enum_bassh1	
-`mod`	bass.html#mod,Enum_bassh1,int	bass: `mod`(x`gensym20295015: Enum_bassh1; y`gensym20295016: int): Enum_bassh1	
-`mod`	bass.html#mod,int,Enum_bassh1	bass: `mod`(x`gensym20295017: int; y`gensym20295018: Enum_bassh1): Enum_bassh1	
-`mod`	bass.html#mod,Enum_bassh1,Enum_bassh1	bass: `mod`(x`gensym20295019, y`gensym20295020: Enum_bassh1): Enum_bassh1	
-`shl`	bass.html#shl,Enum_bassh1,int	bass: `shl`(x`gensym20255001: Enum_bassh1; y`gensym20255002: int): Enum_bassh1	
-`shl`	bass.html#shl,int,Enum_bassh1	bass: `shl`(x`gensym20255003: int; y`gensym20255004: Enum_bassh1): Enum_bassh1	
-`shl`	bass.html#shl,Enum_bassh1,Enum_bassh1	bass: `shl`(x`gensym20255005, y`gensym20255006: Enum_bassh1): Enum_bassh1	
-`shr`	bass.html#shr,Enum_bassh1,int	bass: `shr`(x`gensym20255007: Enum_bassh1; y`gensym20255008: int): Enum_bassh1	
-`shr`	bass.html#shr,int,Enum_bassh1	bass: `shr`(x`gensym20255009: int; y`gensym20255010: Enum_bassh1): Enum_bassh1	
-`shr`	bass.html#shr,Enum_bassh1,Enum_bassh1	bass: `shr`(x`gensym20255011, y`gensym20255012: Enum_bassh1): Enum_bassh1	
-`or`	bass.html#or,Enum_bassh1,int	bass: `or`(x`gensym20255013: Enum_bassh1; y`gensym20255014: int): Enum_bassh1	
-`or`	bass.html#or,int,Enum_bassh1	bass: `or`(x`gensym20255015: int; y`gensym20255016: Enum_bassh1): Enum_bassh1	
-`or`	bass.html#or,Enum_bassh1,Enum_bassh1	bass: `or`(x`gensym20255017, y`gensym20255018: Enum_bassh1): Enum_bassh1	
-`and`	bass.html#and,Enum_bassh1,int	bass: `and`(x`gensym20255019: Enum_bassh1; y`gensym20255020: int): Enum_bassh1	
-`and`	bass.html#and,int,Enum_bassh1	bass: `and`(x`gensym20255021: int; y`gensym20255022: Enum_bassh1): Enum_bassh1	
-`and`	bass.html#and,Enum_bassh1,Enum_bassh1	bass: `and`(x`gensym20255023, y`gensym20255024: Enum_bassh1): Enum_bassh1	
-`xor`	bass.html#xor,Enum_bassh1,int	bass: `xor`(x`gensym20255025: Enum_bassh1; y`gensym20255026: int): Enum_bassh1	
-`xor`	bass.html#xor,int,Enum_bassh1	bass: `xor`(x`gensym20255027: int; y`gensym20255028: Enum_bassh1): Enum_bassh1	
-`xor`	bass.html#xor,Enum_bassh1,Enum_bassh1	bass: `xor`(x`gensym20255029, y`gensym20255030: Enum_bassh1): Enum_bassh1	
-`/`	bass.html#/,Enum_bassh1,int	bass: `/`(x`gensym20255033: Enum_bassh1; y`gensym20255034: int): Enum_bassh1	
-`/`	bass.html#/,int,Enum_bassh1	bass: `/`(x`gensym20255035: int; y`gensym20255036: Enum_bassh1): Enum_bassh1	
-`$`	bass.html#$,Enum_bassh1	bass: `$`(x`gensym20255037: Enum_bassh1): string	
+`+`	bass.html#+,Enum_bassh1,cint	bass: `+`(x`gensym20445165: Enum_bassh1; y`gensym20445166: cint): Enum_bassh1	
+`+`	bass.html#+,cint,Enum_bassh1	bass: `+`(x`gensym20445167: cint; y`gensym20445168: Enum_bassh1): Enum_bassh1	
+`+`	bass.html#+,Enum_bassh1,Enum_bassh1	bass: `+`(x`gensym20445169, y`gensym20445170: Enum_bassh1): Enum_bassh1	
+`+`	bass.html#+,Enum_bassh1,int	bass: `+`(x`gensym20445171: Enum_bassh1; y`gensym20445172: int): Enum_bassh1	
+`+`	bass.html#+,int,Enum_bassh1	bass: `+`(x`gensym20445173: int; y`gensym20445174: Enum_bassh1): Enum_bassh1	
+`-`	bass.html#-,Enum_bassh1,cint	bass: `-`(x`gensym20445175: Enum_bassh1; y`gensym20445176: cint): Enum_bassh1	
+`-`	bass.html#-,cint,Enum_bassh1	bass: `-`(x`gensym20445177: cint; y`gensym20445178: Enum_bassh1): Enum_bassh1	
+`-`	bass.html#-,Enum_bassh1,Enum_bassh1	bass: `-`(x`gensym20445179, y`gensym20445180: Enum_bassh1): Enum_bassh1	
+`-`	bass.html#-,Enum_bassh1,int	bass: `-`(x`gensym20445181: Enum_bassh1; y`gensym20445182: int): Enum_bassh1	
+`-`	bass.html#-,int,Enum_bassh1	bass: `-`(x`gensym20445183: int; y`gensym20445184: Enum_bassh1): Enum_bassh1	
+`*`	bass.html#*,Enum_bassh1,cint	bass: `*`(x`gensym20445185: Enum_bassh1; y`gensym20445186: cint): Enum_bassh1	
+`*`	bass.html#*,cint,Enum_bassh1	bass: `*`(x`gensym20445187: cint; y`gensym20445188: Enum_bassh1): Enum_bassh1	
+`*`	bass.html#*,Enum_bassh1,Enum_bassh1	bass: `*`(x`gensym20445189, y`gensym20445190: Enum_bassh1): Enum_bassh1	
+`*`	bass.html#*,Enum_bassh1,int	bass: `*`(x`gensym20445191: Enum_bassh1; y`gensym20445192: int): Enum_bassh1	
+`*`	bass.html#*,int,Enum_bassh1	bass: `*`(x`gensym20445193: int; y`gensym20445194: Enum_bassh1): Enum_bassh1	
+`div`	bass.html#div,Enum_bassh1,cint	bass: `div`(x`gensym20445195: Enum_bassh1; y`gensym20445196: cint): Enum_bassh1	
+`div`	bass.html#div,cint,Enum_bassh1	bass: `div`(x`gensym20445197: cint; y`gensym20445198: Enum_bassh1): Enum_bassh1	
+`div`	bass.html#div,Enum_bassh1,Enum_bassh1	bass: `div`(x`gensym20445199, y`gensym20445200: Enum_bassh1): Enum_bassh1	
+`div`	bass.html#div,Enum_bassh1,int	bass: `div`(x`gensym20445201: Enum_bassh1; y`gensym20445202: int): Enum_bassh1	
+`div`	bass.html#div,int,Enum_bassh1	bass: `div`(x`gensym20445203: int; y`gensym20445204: Enum_bassh1): Enum_bassh1	
+`mod`	bass.html#mod,Enum_bassh1,cint	bass: `mod`(x`gensym20445205: Enum_bassh1; y`gensym20445206: cint): Enum_bassh1	
+`mod`	bass.html#mod,cint,Enum_bassh1	bass: `mod`(x`gensym20445207: cint; y`gensym20445208: Enum_bassh1): Enum_bassh1	
+`mod`	bass.html#mod,Enum_bassh1,Enum_bassh1	bass: `mod`(x`gensym20445209, y`gensym20445210: Enum_bassh1): Enum_bassh1	
+`mod`	bass.html#mod,Enum_bassh1,int	bass: `mod`(x`gensym20445211: Enum_bassh1; y`gensym20445212: int): Enum_bassh1	
+`mod`	bass.html#mod,int,Enum_bassh1	bass: `mod`(x`gensym20445213: int; y`gensym20445214: Enum_bassh1): Enum_bassh1	
+`shl`	bass.html#shl,Enum_bassh1,cint	bass: `shl`(x`gensym20445215: Enum_bassh1; y`gensym20445216: cint): Enum_bassh1	
+`shl`	bass.html#shl,cint,Enum_bassh1	bass: `shl`(x`gensym20445217: cint; y`gensym20445218: Enum_bassh1): Enum_bassh1	
+`shl`	bass.html#shl,Enum_bassh1,Enum_bassh1	bass: `shl`(x`gensym20445219, y`gensym20445220: Enum_bassh1): Enum_bassh1	
+`shl`	bass.html#shl,Enum_bassh1,int	bass: `shl`(x`gensym20445221: Enum_bassh1; y`gensym20445222: int): Enum_bassh1	
+`shl`	bass.html#shl,int,Enum_bassh1	bass: `shl`(x`gensym20445223: int; y`gensym20445224: Enum_bassh1): Enum_bassh1	
+`shr`	bass.html#shr,Enum_bassh1,cint	bass: `shr`(x`gensym20445225: Enum_bassh1; y`gensym20445226: cint): Enum_bassh1	
+`shr`	bass.html#shr,cint,Enum_bassh1	bass: `shr`(x`gensym20445227: cint; y`gensym20445228: Enum_bassh1): Enum_bassh1	
+`shr`	bass.html#shr,Enum_bassh1,Enum_bassh1	bass: `shr`(x`gensym20445229, y`gensym20445230: Enum_bassh1): Enum_bassh1	
+`shr`	bass.html#shr,Enum_bassh1,int	bass: `shr`(x`gensym20445231: Enum_bassh1; y`gensym20445232: int): Enum_bassh1	
+`shr`	bass.html#shr,int,Enum_bassh1	bass: `shr`(x`gensym20445233: int; y`gensym20445234: Enum_bassh1): Enum_bassh1	
+`or`	bass.html#or,Enum_bassh1,cint	bass: `or`(x`gensym20445235: Enum_bassh1; y`gensym20445236: cint): Enum_bassh1	
+`or`	bass.html#or,cint,Enum_bassh1	bass: `or`(x`gensym20445237: cint; y`gensym20445238: Enum_bassh1): Enum_bassh1	
+`or`	bass.html#or,Enum_bassh1,Enum_bassh1	bass: `or`(x`gensym20445239, y`gensym20445240: Enum_bassh1): Enum_bassh1	
+`or`	bass.html#or,Enum_bassh1,int	bass: `or`(x`gensym20445241: Enum_bassh1; y`gensym20445242: int): Enum_bassh1	
+`or`	bass.html#or,int,Enum_bassh1	bass: `or`(x`gensym20445243: int; y`gensym20445244: Enum_bassh1): Enum_bassh1	
+`and`	bass.html#and,Enum_bassh1,cint	bass: `and`(x`gensym20445245: Enum_bassh1; y`gensym20445246: cint): Enum_bassh1	
+`and`	bass.html#and,cint,Enum_bassh1	bass: `and`(x`gensym20445247: cint; y`gensym20445248: Enum_bassh1): Enum_bassh1	
+`and`	bass.html#and,Enum_bassh1,Enum_bassh1	bass: `and`(x`gensym20445249, y`gensym20445250: Enum_bassh1): Enum_bassh1	
+`and`	bass.html#and,Enum_bassh1,int	bass: `and`(x`gensym20445251: Enum_bassh1; y`gensym20445252: int): Enum_bassh1	
+`and`	bass.html#and,int,Enum_bassh1	bass: `and`(x`gensym20445253: int; y`gensym20445254: Enum_bassh1): Enum_bassh1	
+`xor`	bass.html#xor,Enum_bassh1,cint	bass: `xor`(x`gensym20445255: Enum_bassh1; y`gensym20445256: cint): Enum_bassh1	
+`xor`	bass.html#xor,cint,Enum_bassh1	bass: `xor`(x`gensym20445257: cint; y`gensym20445258: Enum_bassh1): Enum_bassh1	
+`xor`	bass.html#xor,Enum_bassh1,Enum_bassh1	bass: `xor`(x`gensym20445259, y`gensym20445260: Enum_bassh1): Enum_bassh1	
+`xor`	bass.html#xor,Enum_bassh1,int	bass: `xor`(x`gensym20445261: Enum_bassh1; y`gensym20445262: int): Enum_bassh1	
+`xor`	bass.html#xor,int,Enum_bassh1	bass: `xor`(x`gensym20445263: int; y`gensym20445264: Enum_bassh1): Enum_bassh1	
+`&lt;`	bass.html#<,Enum_bassh1,cint	bass: `&lt;`(x`gensym20445265: Enum_bassh1; y`gensym20445266: cint): bool	
+`&lt;`	bass.html#<,cint,Enum_bassh1	bass: `&lt;`(x`gensym20445267: cint; y`gensym20445268: Enum_bassh1): bool	
+`&lt;`	bass.html#<,Enum_bassh1,Enum_bassh1	bass: `&lt;`(x`gensym20445269, y`gensym20445270: Enum_bassh1): bool	
+`&lt;`	bass.html#<,Enum_bassh1,int	bass: `&lt;`(x`gensym20445271: Enum_bassh1; y`gensym20445272: int): bool	
+`&lt;`	bass.html#<,int,Enum_bassh1	bass: `&lt;`(x`gensym20445273: int; y`gensym20445274: Enum_bassh1): bool	
+`&lt;=`	bass.html#<=,Enum_bassh1,cint	bass: `&lt;=`(x`gensym20445275: Enum_bassh1; y`gensym20445276: cint): bool	
+`&lt;=`	bass.html#<=,cint,Enum_bassh1	bass: `&lt;=`(x`gensym20445277: cint; y`gensym20445278: Enum_bassh1): bool	
+`&lt;=`	bass.html#<=,Enum_bassh1,Enum_bassh1	bass: `&lt;=`(x`gensym20445279, y`gensym20445280: Enum_bassh1): bool	
+`&lt;=`	bass.html#<=,Enum_bassh1,int	bass: `&lt;=`(x`gensym20445281: Enum_bassh1; y`gensym20445282: int): bool	
+`&lt;=`	bass.html#<=,int,Enum_bassh1	bass: `&lt;=`(x`gensym20445283: int; y`gensym20445284: Enum_bassh1): bool	
+`==`	bass.html#==,Enum_bassh1,cint	bass: `==`(x`gensym20445285: Enum_bassh1; y`gensym20445286: cint): bool	
+`==`	bass.html#==,cint,Enum_bassh1	bass: `==`(x`gensym20445287: cint; y`gensym20445288: Enum_bassh1): bool	
+`==`	bass.html#==,Enum_bassh1,Enum_bassh1	bass: `==`(x`gensym20445289, y`gensym20445290: Enum_bassh1): bool	
+`==`	bass.html#==,Enum_bassh1,int	bass: `==`(x`gensym20445291: Enum_bassh1; y`gensym20445292: int): bool	
+`==`	bass.html#==,int,Enum_bassh1	bass: `==`(x`gensym20445293: int; y`gensym20445294: Enum_bassh1): bool	
+`&gt;`	bass.html#>,Enum_bassh1,cint	bass: `&gt;`(x`gensym20445295: Enum_bassh1; y`gensym20445296: cint): bool	
+`&gt;`	bass.html#>,cint,Enum_bassh1	bass: `&gt;`(x`gensym20445297: cint; y`gensym20445298: Enum_bassh1): bool	
+`&gt;`	bass.html#>,Enum_bassh1,Enum_bassh1	bass: `&gt;`(x`gensym20445299, y`gensym20445300: Enum_bassh1): bool	
+`&gt;`	bass.html#>,Enum_bassh1,int	bass: `&gt;`(x`gensym20445301: Enum_bassh1; y`gensym20445302: int): bool	
+`&gt;`	bass.html#>,int,Enum_bassh1	bass: `&gt;`(x`gensym20445303: int; y`gensym20445304: Enum_bassh1): bool	
+`&gt;=`	bass.html#>=,Enum_bassh1,cint	bass: `&gt;=`(x`gensym20445305: Enum_bassh1; y`gensym20445306: cint): bool	
+`&gt;=`	bass.html#>=,cint,Enum_bassh1	bass: `&gt;=`(x`gensym20445307: cint; y`gensym20445308: Enum_bassh1): bool	
+`&gt;=`	bass.html#>=,Enum_bassh1,Enum_bassh1	bass: `&gt;=`(x`gensym20445309, y`gensym20445310: Enum_bassh1): bool	
+`&gt;=`	bass.html#>=,Enum_bassh1,int	bass: `&gt;=`(x`gensym20445311: Enum_bassh1; y`gensym20445312: int): bool	
+`&gt;=`	bass.html#>=,int,Enum_bassh1	bass: `&gt;=`(x`gensym20445313: int; y`gensym20445314: Enum_bassh1): bool	
+`/`	bass.html#/,Enum_bassh1,Enum_bassh1	bass: `/`(x`gensym20445315, y`gensym20445316: Enum_bassh1): Enum_bassh1	
+`/`	bass.html#/,Enum_bassh1,cint	bass: `/`(x`gensym20445317: Enum_bassh1; y`gensym20445318: cint): Enum_bassh1	
+`/`	bass.html#/,cint,Enum_bassh1	bass: `/`(x`gensym20445319: cint; y`gensym20445320: Enum_bassh1): Enum_bassh1	
+`/`	bass.html#/,Enum_bassh1,int	bass: `/`(x`gensym20445321: Enum_bassh1; y`gensym20445322: int): Enum_bassh1	
+`/`	bass.html#/,int,Enum_bassh1	bass: `/`(x`gensym20445323: int; y`gensym20445324: Enum_bassh1): Enum_bassh1	
+`$`	bass.html#$,Enum_bassh1	bass: `$`(x`gensym20445325: Enum_bassh1): string	
+`not`	bass.html#not,Enum_bassh1	bass: `not`(x`gensym20445326: Enum_bassh1): Enum_bassh1	
 TRUE	bass.html#TRUE	bass: TRUE	
 FALSE	bass.html#FALSE	bass: FALSE	
 BASSVERSION	bass.html#BASSVERSION	bass: BASSVERSION	
@@ -242,6 +286,14 @@ BASS_SPEAKER_CENLFE	bass.html#BASS_SPEAKER_CENLFE	bass: BASS_SPEAKER_CENLFE
 BASS_SPEAKER_REAR2	bass.html#BASS_SPEAKER_REAR2	bass: BASS_SPEAKER_REAR2	
 BASS_SPEAKER_LEFT	bass.html#BASS_SPEAKER_LEFT	bass: BASS_SPEAKER_LEFT	
 BASS_SPEAKER_RIGHT	bass.html#BASS_SPEAKER_RIGHT	bass: BASS_SPEAKER_RIGHT	
+BASS_SPEAKER_FRONTLEFT	bass.html#BASS_SPEAKER_FRONTLEFT	bass: BASS_SPEAKER_FRONTLEFT	
+BASS_SPEAKER_FRONTRIGHT	bass.html#BASS_SPEAKER_FRONTRIGHT	bass: BASS_SPEAKER_FRONTRIGHT	
+BASS_SPEAKER_REARLEFT	bass.html#BASS_SPEAKER_REARLEFT	bass: BASS_SPEAKER_REARLEFT	
+BASS_SPEAKER_REARRIGHT	bass.html#BASS_SPEAKER_REARRIGHT	bass: BASS_SPEAKER_REARRIGHT	
+BASS_SPEAKER_CENTER	bass.html#BASS_SPEAKER_CENTER	bass: BASS_SPEAKER_CENTER	
+BASS_SPEAKER_LFE	bass.html#BASS_SPEAKER_LFE	bass: BASS_SPEAKER_LFE	
+BASS_SPEAKER_REAR2LEFT	bass.html#BASS_SPEAKER_REAR2LEFT	bass: BASS_SPEAKER_REAR2LEFT	
+BASS_SPEAKER_REAR2RIGHT	bass.html#BASS_SPEAKER_REAR2RIGHT	bass: BASS_SPEAKER_REAR2RIGHT	
 BASS_ASYNCFILE	bass.html#BASS_ASYNCFILE	bass: BASS_ASYNCFILE	
 BASS_UNICODE	bass.html#BASS_UNICODE	bass: BASS_UNICODE	
 BASS_RECORD_PAUSE	bass.html#BASS_RECORD_PAUSE	bass: BASS_RECORD_PAUSE	
