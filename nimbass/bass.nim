@@ -10,14 +10,15 @@ proc getOsSuffix*(): string =
 
 proc rmSharedByArch*(outdir, name: string) =
   # Delete shared lib that doesn't match current architecture
-  if sizeof(int) == 4:
-    if fileExists(outdir / "x64"):
-      rmDir(outdir / "")
-  else:
-    let
-      shared = DynlibFormat % name
-    if fileExists(outdir / shared):
-      rmFile(outdir / shared)
+  when not defined(OSX):
+    if sizeof(int) == 4:
+      if fileExists(outdir / "x64"):
+        rmDir(outdir / "")
+    else:
+      let
+        shared = DynlibFormat % name
+      if fileExists(outdir / shared):
+        rmFile(outdir / shared)
 
 const
   baseDir = getProjectCacheDir("nimbass")
