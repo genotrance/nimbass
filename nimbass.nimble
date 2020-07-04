@@ -9,7 +9,7 @@ skipDirs = @["tests"]
 
 # Dependencies
 
-requires "nimterop >= 0.6.1"
+requires "nimterop >= 0.6.2"
 
 import os, strformat
 
